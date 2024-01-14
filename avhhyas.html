@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN link v5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link v6.1.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons cdn link v1.8.2-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.2/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/courses.css">
+    <title>Links Mind</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light" id="toGetTop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./img/darkLogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studyMaterial.html">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forum.html">Discussion Forum</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search here...">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <li class="nav-item d-flex ms-2 justify-content-between">
+                        <a class="nav-link" href="cart.html"><img src="./img/cartIcon.png" alt=""></a>
+                        <a class="nav-link" href="login.html"><button class="loginBtn px-4 py-1">Login</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="coursesWeHave" class="mt-3">
+        <img src="./img/curls.png" class="curls" alt="">
+        <div class="d-flex align-items-center justify-content-end">
+            <h2 class=" text-center me-4"><span class="yellowColorText me-md-5">Quiz</span></h2>
+            <div class="yellowHr3"></div>
+        </div>
+    </section>
+    <section id="plcHomeSection">
+        <div class="container">
+            <img src="./img/homePagePolygons.png" class="plcPageHomeSectionPolygons" alt="">
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <img src="./img/avhhyasImg.png" class="plcHomePageImg d-block mx-auto" alt="">
+                </div>
+                <div class="col-md-6 pt-5 mt-md-5 mt-sm-0 pb-3">
+                    <h1>Assessments,<br> <span class="yellowColorText"> Avhhyas</span>, Tests</h1>
+                    <h2>Easily launch live assignments, quizzes, and tests.
+                        Student results are automatically entered in the online gradebook.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal 1 -->
+    <div class="modal" tabindex="-1" id="modal1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content1">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Keep Learnig new stuff <img src="./img/hourglass.png" alt=""></h1>
+                    <div class="d-flex justify-content-center mt-5">
+                        <a href="cart.html"><button class="buyBtn">Buy Avhhyas</button></a>
+                    </div>
+                    <div class="text-center mt-3">OR</div>
+                    <div class="d-flex justify-content-center mt-3 mb-5">
+                        <a href="mcqTestStart.html"><button class="sampeBtn">Start Free Sample Avhhyas</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 1 ends-->
+    <div class="coursesList">
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="filter px-3 mx-3">
+                    <div class="text-light d-flex align-items-center" id="filterBtn">
+                        <i class="bi bi-funnel ms-5"></i>
+                        <span class="fo-24 filterText">FILTER</span>
+                    </div>
+                    <div id="allAccordion" class="displayNone">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Board
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">State Board</label>
+                                        <ul>
+                                            <li><input type="checkbox" name="" id=""> M.P Board <span
+                                                    class="number">(90)</span></li>
+                                            <li><input type="checkbox" name="" id=""> M.P Board <span
+                                                    class="number">(90)</span></li>
+                                            <li class="boardDisplayNone"><input type="checkbox" name="" id=""> M.P Board
+                                                <span class="number">(90)</span>
+                                            </li>
+                                            <li class="boardDisplayNone"><input type="checkbox" name="" id=""> M.P Board
+                                                <span class="number">(90)</span>
+                                            </li>
+                                            <li class="boardDisplayNone"><input type="checkbox" name="" id=""> M.P Board
+                                                <span class="number">(90)</span>
+                                            </li>
+                                            <a href="" onclick="return false" class="showAll" id="showLinkBoards">Show
+                                                all <i class="fa-solid fa-angle-down"></i></a>
+                                        </ul>
+                                        <input type="checkbox" name="" id=""><label for=""> CBSE <span
+                                                class="number">(167)</span></label> <br>
+                                        <input type="checkbox" name="" id=""><label for=""> ICSE <span
+                                                class="number">(456)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        Class
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">KG</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">LKG</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">UKG</label><br>
+                                        <a href="#" class="showAll">Show all <i class="fa-solid fa-angle-down"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        Stream
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">Science</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Commerce</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Arts</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        Subject
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">Physics
+                                            <span class="number">(02)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Maths<span
+                                                class="number">(90)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Business<span
+                                                class="number">(167)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Finance & Accounting<span
+                                                class="number">(456)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Physics <span
+                                                class="number">(02)</span></label><br>
+                                        <a href="#" class="showAll">Show all</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        Language
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">English</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Hindi</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                        Duration
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">1 hr</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">2 hr</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">3 hr</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="true"
+                                        aria-controls="collapseSeven">
+                                        Ratings
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">1</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">2</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">3</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">4</label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">5</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        Pricing
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <input type="checkbox" name="" id=""> <label for="">Below Rs 300 <span
+                                                class="number">(90)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Rs 301 To 800 <span
+                                                class="number">(167)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Rs 801 To 1000 <span
+                                                class="number">(456)</span></label><br>
+                                        <input type="checkbox" name="" id=""> <label for="">Above Rs 1000+ <span
+                                                class="number">(02)</span></label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 px-2 mt-3">
+                <div class="courses">
+                    <h1 class="ps-md-5 ps-3">Recommended Avhhyas For You</h1>
+                    <div class="coursesCarouselContent d-flex justify-content-between align-items-center">
+                        <div class="coursesCarousel-prev" role="button"><i
+                                class="fa-solid fa-angle-left text-muted"></i>
+                        </div>
+                        <div class="owl-carousel coursesCarousel owl-theme">
+                            <div class="item plcCard mx-auto">
+                                <div class="price150Tag">Rs 150</div>
+                                <img src="./img/plcCourseImg.png" class="px-2 py-2" alt="">
+                                <div class="d-flex justify-content-between mt-3 px-3">
+                                    <h2 class="fo-18 ">Avhhyas - 1</h2>
+                                    <div class="d-flex">
+                                        <div class="fo-12 fw-400 yellowColorText me-2">4.8</div>
+                                        <i class="fa-solid fa-star yellowColorText"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center ms-1 px-3 border-bottom mt-3">
+                                    <h4 class="me-2">English Classes</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">CBSE</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">7th Class</h4>
+                                </div>
+                                <div class="pb-2 border-bottom d-flex pt-2 justify-content-center  px-3">
+                                    <img src="./img/questionMark.png" class="questionMark" alt="">
+                                    <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                    <i class="fo-12 yellowColorText mt-1 fa-regular fo-10 fa-clock"></i>
+                                    <div class="fo-12 ms-1 fw-400">30 Minutes</div>
+                                </div>
+                                <div class="d-flex pt-2 pb-2 px-3 align-items-center justify-content-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1.5k views</div>
+                                    <h4 class="me-3 mt-2"><img src="./img/dot.png" alt=""></h4>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                                </div>
+                            </div>
+                            <div class="item plcCard mx-auto">
+                                <div class="price150Tag">Rs 150</div>
+                                <img src="./img/plcCourseImg.png" class="px-2 py-2" alt="">
+                                <div class="d-flex justify-content-between mt-3 px-3">
+                                    <h2 class="fo-18 ">Avhhyas - 1</h2>
+                                    <div class="d-flex">
+                                        <div class="fo-12 fw-400 yellowColorText me-2">4.8</div>
+                                        <i class="fa-solid fa-star yellowColorText"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center ms-1 px-3 border-bottom mt-3">
+                                    <h4 class="me-2">English Classes</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">CBSE</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">7th Class</h4>
+                                </div>
+                                <div class="pb-2 border-bottom d-flex pt-2 justify-content-center  px-3">
+                                    <img src="./img/questionMark.png" class="questionMark" alt="">
+                                    <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                    <i class="fo-12 yellowColorText mt-1 fa-regular fo-10 fa-clock"></i>
+                                    <div class="fo-12 ms-1 fw-400">30 Minutes</div>
+                                </div>
+                                <div class="d-flex pt-2 pb-2 px-3 align-items-center justify-content-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1.5k views</div>
+                                    <h4 class="me-3 mt-2"><img src="./img/dot.png" alt=""></h4>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                                </div>
+                            </div>
+                            <div class="item plcCard mx-auto">
+                                <div class="price150Tag">Rs 150</div>
+                                <img src="./img/plcCourseImg.png" class="px-2 py-2" alt="">
+                                <div class="d-flex justify-content-between mt-3 px-3">
+                                    <h2 class="fo-18 ">Avhhyas - 1</h2>
+                                    <div class="d-flex">
+                                        <div class="fo-12 fw-400 yellowColorText me-2">4.8</div>
+                                        <i class="fa-solid fa-star yellowColorText"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center ms-1 px-3 border-bottom mt-3">
+                                    <h4 class="me-2">English Classes</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">CBSE</h4>
+                                    <h4 class="me-2"><img src="./img/dot.png" alt=""></h4>
+                                    <h4 class="me-2">7th Class</h4>
+                                </div>
+                                <div class="pb-2 border-bottom d-flex pt-2 justify-content-center  px-3">
+                                    <img src="./img/questionMark.png" class="questionMark" alt="">
+                                    <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                    <i class="fo-12 yellowColorText mt-1 fa-regular fo-10 fa-clock"></i>
+                                    <div class="fo-12 ms-1 fw-400">30 Minutes</div>
+                                </div>
+                                <div class="d-flex pt-2 pb-2 px-3 align-items-center justify-content-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1.5k views</div>
+                                    <h4 class="me-3 mt-2"><img src="./img/dot.png" alt=""></h4>
+                                    <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="coursesCarousel-next" role="button"><i
+                                class="fa-solid fa-angle-right text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="coursesHeading ms-3">Competitive Avhhyas (400 results)</h3>
+                <div class="row mx-2">
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-3">
+                        <div class="avhhyasCard" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="price150Tag2">Rs 150</div>
+                            <img src="./img/avhhyasCardImg.png" class="avhhyasCardImg px-2 py-2" alt="">
+                            <div class="d-flex justify-content-between avhhyasCardContent">
+                                <h3 class="mt-3 ms-2">
+                                    Kids vocabulary - Geography - Nature <br> - Learn Englsh
+                                    <span class="fo-12 ms-3 me-2 text-muted fw-400"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 me-2 text-muted fw-400">English
+                                        Classes</span>
+                                    <span class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png" alt=""></span>
+                                    <span class="fo-12 text-muted fw-400 me-2">CBSE</span> <span
+                                        class="fo-12 text-muted fw-400 me-1"><img src="./img/dot.png"
+                                            alt=""></span><span class="fo-12 text-muted fw-400">7th
+                                        Class</span>
+                                </h3>
+                                <div class="rating px-2 text-light me-2 mt-3">
+                                    <i class="fa-solid fa-star"></i> 4.3
+                                </div>
+                            </div>
+                            <div
+                                class="pb-2 d-flex avhhyasCardContent2 flex-wrap pt-2 justify-content-center align-items-center px-3">
+                                <img src="./img/questionMark.png" class="questionMark" alt="">
+                                <div class="fo-12 ms-1 fw-400 me-3">50 Questions</div>
+                                <i class="fo-12 yellowColorText fa-regular fo-10 fa-clock"></i>
+                                <div class="fo-12 ms-1 fw-400 me-3">30 Minutes</div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fo-12 yellowColorText fa-solid fa-eye me-2"></i>
+                                    <div class="fo-12 fw-400 me-3">1.5k views</div>
+                                </div>
+                                <span><img src="./img/dot.png" alt=""></span>
+                                <div class="fo-12 ms-1 fw-400 me-3">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="whyUs" class="mx-md-5 mx-2 px-2 px-md-5 mt-3">
+        <div class="row">
+            <div class="col-md-6 col-12 pt-5">
+                <div class="whyUsVideoSection">
+                    <!-- <img src="./img/whyUsImg.png" class="whyUsImg" alt=""> -->
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="fo-30 fw-600 mt-4">Why Choose Linksmind courses?🧐</div>
+                <div class="whyUsContent d-flex align-items-center mt-5">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">High Quality Educational content</div>
+                </div>
+                <div class="whyUsContent d-flex align-items-center mt-3">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">Track Progress</div>
+                </div>
+                <div class="whyUsContent d-flex align-items-center mt-3">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">Get Shareable Certificates</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="testimonial mt-5 pt-5">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-start">
+                    <div class="mt-2 me-3 testimonialHr"></div>
+                    <h6>Testimonial</h6>
+                </div>
+                <div class="container mx-md-5 px-md-5 px-3">
+                    <h2>What They Say?</h2>
+                    <h4 class="mt-4">Linksmind has got more than 100k positive ratings from our users around the world.
+                    </h4>
+                    <h4 class="mt-4">Some of the students and teachers were greatly helped by the Skilline.</h4>
+                    <h4 class="mt-4">Are you too? Please give your assessment</h4>
+                    <a href="#" class="textDecorationNone">
+                        <div class="d-flex AssesmentBtn align-items-center mt-4 ps-5">
+                            Write your assessment
+                            <div class="InnerAssesmentBtn d-flex justify-content-center align-items-center"><i
+                                    class="fa-solid fa-arrow-right-long"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/testimonialImg.png" height="70%" class="ms-3 mt-3" alt="">
+                <div class="testimonialReview p-md-5 p-3">
+                    <p class="border-start ps-3">"Thank you so much for your help. It's exactly what I've been
+                        looking
+                        for. You won't regret
+                        it. It really saves me time and effort. Skilline is exactly what our business has been
+                        lacking."</p>
+
+                    <div class="d-flex justify-content-between align-items-center px-3">
+                        <h5>Lisa Joseph</h5>
+                        <div>
+                            <i class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i>
+                            <div class="testimonialReviews">12 reviews</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+    <div class="studentSatisfaction">
+        <div class="whiteLine"></div>
+        <div class="studentSatisfactionHeading">Student Satisfaction</div>
+        <div class="d-flex justify-content-around circles">
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">2</span>k+</h3>
+                        <h4>Students</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">9.50</span></h3>
+                        <h4>Avg CGPA</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">100</span>%</h3>
+                        <h4>Guarantee</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="blogSection" class="mt-5">
+        <h1 class="text-center">Latest Blogs & Discussion Forum</h1>
+        <h2 class="text-center">See the developments that have occurred to Skillines in the world</h2>
+        <div class="row mx-3">
+            <div class="col-md-6 col-12 mt-md-5">
+                <img src="./img/blog1.png" class="blogImg" alt="">
+                <div class="yellowTag">Science</div>
+                <h3 class="mt-2">Class adds $30 million to its balance sheet for <br> a Zoom-friendly edtech solution
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac scelerisque massa velit tellus
+                    cursus. Quis id tristique.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+            <div class="col-md-6 mt-md-5">
+                <div class="row">
+                    <div class="col-md-5 mt-3 mt-md-0">
+                        <img src="./img/blog2.png" class="blogImg" alt="">
+                        <div class="yellowTag2">Chemistry</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h3>
+                        <p>Class Technologies Inc., the company that created Class,...</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-5"><img src="./img/blog3.png" class="blogImg" alt="">
+                        <div class="yellowTag2">EVS</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Zoom’s earliest investors are betting millions on a better Zoom for schools</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi quam in consequat.</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-5"><img src="./img/blog4.png" class="blogImg" alt="">
+                        <div class="yellowTag2">NEWS</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mauris quam lectus.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#"> <img src="./img/exploreAllBtn.png" class="d-block mt-5 mx-auto" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="border-end col-lg-3 pe-2 pt-2">
+                    <img src="./img/darkLogo.png" class="footerLogo" alt="">
+                    <h2 class="text-light mt-1">Connecting Beautiful Minds</h2>
+                    <h3 class="text-light mt-2">LINKSMIND EDUCORP PVT LTD</h3>
+                    <h3 class="text-light">-Unit of EDURESEARCH LINKSMIND LLP</h3>
+                    <div class="d-flex align-items-center text-light mt-3">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div class="ms-3 addressTelMail">Dummy Address</div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="ms-3 addressTelMail"><a href="tel:(+91) 9876543210">(+91) 9876543210</a></div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="ms-3 addressTelMail"><a href="mailto:abc@mail.com">abc@mail.com</a></div>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <a href="#" class="ms-2"><img src="./img/footerYoutube.png" class="footerYoutube" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerLinkedIn.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerInsta.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerTwitter.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerFb.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 ps-md-5 pt-4">
+                    <div class="headings">Quick Links</div>
+                    <div class="d-flex footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="aboutUs.html">About Us</a></div>
+                            <div class="mt-1"><a href="contact.html">Contact </a></div>
+                            <div class="mt-1"><a href="privacyPolicy.html">Privacy Policy</a></div>
+                            <div class="mt-1"><a href="termsCondition.html">Terms & Condition</a></div>
+                            <div class="mt-1"><a href="refundPolicy.html">Pricing & Refund Policy</a></div>
+                        </div>
+                        <div class="ms-2">
+                            <div class="mt-1"><a href="faq.html">FAQs</a></div>
+                            <div class="mt-1"><a href="siteMap.html">Sitemap</a></div>
+                            <div class="mt-1"><a href="forum.html">Discussion Forum</a></div>
+                            <div class="mt-1"><a href="index.html#bookCounselling">Book Free Counselling</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-1 pt-4">
+                    <div class="headings">Courses</div>
+                    <div class="footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="physics.html">Physics</a></div>
+                            <div class="mt-1"><a href="bio.html">Bio </a></div>
+                            <div class="mt-1"><a href="math.html">Maths</a></div>
+                            <div class="mt-1"><a href="chemistry.html">Chemistry</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 pt-3">
+                    <div class="headings textDecorationNone">Subscribe to get our Newsletter</div>
+                    <div>
+                        <input type="email" placeholder="Your Email">
+                        <button class="subscribeBtn">Subscribe</button>
+                    </div>
+                    <h4 class="mt-3">Install Our App</h4>
+                    <div class="d-flex">
+                        <a href="#"><img src="./img/googlePlay.png" class="downloadImg" alt=""></a>
+                        <a href="#"><img src="./img/appleStore.png" class="ms-1 downloadImg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerTag mt-5 pb-3 text-light text-center">© Copyright 2022 -(Company Name) Pvt. Ltd.</div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="toTop me-4">
+                <a href="#toGetTop">
+                    <div class="backtoTop mx-auto"><i class="fa-solid fa-angle-up fa-3x"></i></div>
+                </a>
+                <div class="text-light mt-1">Back to top</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap javascript v5.0.2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Cdn link v3.6.0 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jQueryCounter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- js file -->
+    <script src="./js/script.js"></script>
+    <script src="./js/courses.js"></script>
+</body>
+
+</html>

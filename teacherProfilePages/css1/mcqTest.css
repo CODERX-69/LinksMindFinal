@@ -1,0 +1,743 @@
+.mcqSubmitBox {
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.mcqSubmit h2,
+.mcqSubmit h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.opacity6 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.opacity7 {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.opacity8 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.img9{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.boxquestion{
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.question1{
+    font-weight: 400;
+font-size: 20px;
+
+color: #000000;
+
+}
+.buttons{
+    margin-top: 150px;
+    padding-bottom: 88px;
+}
+.addtime2{
+
+    text-align: center;
+    justify-content: center;
+ border-radius: 6px;
+ height: 50px;
+ font-weight: 600;
+ font-size: 20px;
+
+    width: 100%;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.35);
+border-radius: 8px;
+}
+
+.addtime2:hover{
+    background-color: #FFBB00;
+    border: none;
+    color: #ffffff;
+}
+
+
+.boxinput{
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+.radioinput2{
+    justify-content: end;
+    text-align: end;
+}
+
+.question2{
+    font-weight: 800;
+font-size: 22px;
+color: #000000;
+}
+
+.mcqSubmit .remainingTime {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #FFFFFF;
+    background: #FFBB00;
+    border-radius: 45px;
+}
+
+@media screen and (max-width:479px) {
+    .mcqTestPerson {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .mcqSubmit h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .mcqSubmit .remainingTime {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.mcqSubmit .viewResult {
+    background: #FFFFFF;
+    border: 1px solid #FFBB00;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFBB00;
+    padding: 10px 30px 10px 30px;
+}
+
+.mcqSubmit .no {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    padding: 10px 30px 10px 30px;
+}
+
+.summaryHeading {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.summarySubHeading {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width:650px) {
+
+    .summaryHeading {
+        font-size: 14px;
+    }
+
+    .summarySubHeading {
+        font-size: 13px;
+    }
+}
+
+.sureSubmit {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:500px) {
+
+    .summaryHeading {
+        font-size: 12px;
+    }
+
+    .summarySubHeading {
+        font-size: 10px;
+    }
+
+    .sureSubmit {
+        font-size: 14px;
+    }
+}
+
+/* mcq test start css */
+#quiz .curls {
+    margin-left: 55%;
+}
+
+.descriptionBox {
+    min-height: 600px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.descriptionHeading {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.8;
+    background: #F5F5F5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#startTest .Headings {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.addinput{
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+font-weight: 400;
+font-size: 18px;
+height: 50px;
+width: 100%;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+opacity: 0.3;
+}
+
+.addinput2{
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.02em;
+width: 100%;
+color: #000000;
+height: 470px;
+opacity: 0.3;
+}
+
+.hour{
+    text-align: center;
+    justify-content: center;
+}
+
+.addtime{
+    width: 100%;
+   text-align: center;
+   justify-content: center;
+   background: #FFBB00;
+border-radius: 6px;
+height: 50px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+.level{
+    font-weight: 600;
+font-size: 20px;
+color: #000000;
+
+opacity: 0.7;
+}
+.hourinput{
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+#startTest p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+#startTest .blueBox {
+    margin-left: 8px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #306AC2;
+}
+
+#startTest .greyBox {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #DADADA;
+}
+
+#startTest .greenBox {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #4DC230;
+}
+
+#startTest .yellowBox {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #FFBB00;
+}
+
+#startTest .brownBox {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #AC4B14;
+}
+
+#startTest .blackDot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+#startTest .totalTime {
+    width: 100%;
+    background: #F5F5F5;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#startTest .row {
+    --bs-gutter-x: 0rem;
+}
+
+#startTest .timeRemainingCount {
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+#startTest .startBtn {
+    background: #FFBB00;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 300px;
+}
+
+#startTest .submitTestBtn {
+    background: #FFBB00;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .descriptionHeading {
+        font-size: 20px;
+    }
+
+    #startTest .Headings {
+        font-size: 18px;
+    }
+
+    #startTest p {
+        font-size: 14px;
+    }
+
+    #startTest .blueBox,
+    #startTest .greyBox,
+    #startTest .greenBox,
+    #startTest .yellowBox,
+    #startTest .brownBox {
+        width: 20px;
+        height: 20px;
+    }
+
+    #startTest .timeRemainingCount {
+        font-size: 24px;
+    }
+
+    #startTest .startBtn {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    #startTest label {
+        font-size: 12px;
+    }
+
+}
+
+#startTest .question {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+#startTest .options {
+    width: 285px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+#startTest .optionNumber {
+    width: 41px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+#startTest .option {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+#startTest .options.selected {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#startTest .options.selected .optionNumber {
+    background: #FFBB00;
+}
+
+#startTest .options.selected .option {
+    color: #FFFFFF;
+}
+
+#startTest .quant {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#startTest .quant div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 25px 0px 0px 0px;
+    cursor: pointer;
+}
+
+
+
+#startTest .greenQuant,
+#startTest .greenCircle {
+    background: #4DC230;
+}
+
+#startTest .yellowQuant,
+#startTest .yellowCircle {
+    background: #FFBB00;
+}
+
+#startTest .brownQuant,
+#startTest .brownCircle {
+    background: #AC4B14;
+}
+
+#startTest .blueQuant,
+#startTest .blueCircle {
+    background: #306AC2;
+}
+
+#startTest .greyQuant,
+#startTest .greyCircle {
+    background: #DADADA;
+    color: #000000 !important;
+}
+
+#startTest .buttonsBox {
+    background: #F5F5F5;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#startTest .markReviewBtn {
+    background: #AC4B14;
+    border-radius: 45px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+#startTest .previousBtn {
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    background: #306AC2;
+    border-radius: 45px 0px 0px 45px;
+}
+
+#startTest .nextBtn {
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    background: #306AC2;
+    border-radius: 0px 45px 45px 0px;
+}
+
+#startTest .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:500px) {
+
+    #startTest .quant div {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #startTest .question {
+        font-size: 18px;
+    }
+
+    #startTest .options {
+        width: 285px;
+        height: 48px;
+    }
+
+    #startTest .optionNumber {
+        width: 31px;
+        height: 34px;
+    }
+
+    #startTest .option {
+        font-size: 15px;
+    }
+
+    #startTest .quant div {
+        width: 30px;
+        height: 30px;
+    }
+
+    #startTest .markReviewBtn {
+        font-size: 12px;
+    }
+
+    #startTest .previousBtn,
+    #startTest .nextBtn {
+        font-size: 12px;
+    }
+
+    #startTest .circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+
+    .buttons{
+      
+            margin-top: 18px;
+        
+    }
+}
+
+/* mcq View Result css */
+.mcqSubmit .auditoryBtn {
+    width: fit-content;
+    padding: 4px 10px 4px 10px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #FFBB00;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+
+.mcqSubmit .pricingPageBtn {
+    background: #FFBB00;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.mcqSubmit .subscribeHeading,
+.mcqSubmit .subHeading {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.mcqSubmit .scoreCard table {
+    width: 100%;
+}
+
+.mcqSubmit .scoreCard table th {
+    background: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mcqSubmit .scoreCard table .subHeading,
+.mcqSubmit .scoreCard table .number {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mcqSubmit .scoreCard table .number,
+.mcqSubmit .scoreCard table .tableScore1,
+.mcqSubmit .scoreCard table .tableScore2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.mcqSubmit .scoreCard table .tableScore1 {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+}
+
+.mcqSubmit .scoreCard table .tableScore2 {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.mcqSubmit .scoreCard table .subHeading {
+    width: 40%;
+}
+
+.mcqSubmit .scoreCard table .questionNumber,
+.mcqSubmit .scoreCard table .AB {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 0px 5px 0px;
+}
+
+.mcqSubmit .scoreCard table .incorrect {
+    font-weight: 500;
+    font-size: 20px;
+    color: #F51818;
+    text-align: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 0px 5px 0px;
+}
+
+.mcqSubmit .scoreCard table .correct {
+    font-weight: 500;
+    font-size: 20px;
+    color: #64C716;
+    text-align: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 0px 5px 0px;
+}
+
+.mcqSubmit .page:hover {
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .mcqSubmit .auditoryBtn {
+        margin-bottom: 10px;
+    }
+
+    .mcqSubmit .pricingPageBtn {
+        font-size: 10px;
+    }
+
+    .mcqSubmit .subscribeHeading,
+    .mcqSubmit .subHeading {
+        font-size: 12px;
+    }
+
+    .mcqSubmit .scoreCard table .number,
+    .mcqSubmit .scoreCard table .tableScore1,
+    .mcqSubmit .scoreCard table .tableScore2 {
+
+        font-size: 12px;
+    }
+
+    .mcqSubmit .scoreCard table .tableScore1 {
+        padding-right: 50px;
+    }
+
+    .mcqSubmit .scoreCard table .tableScore2 {
+        padding-left: 20px;
+    }
+
+    .mcqSubmit .rightContent,
+    .mcqSubmit .page {
+        font-size: 12px;
+    }
+
+    .mcqSubmit .scoreCard table .questionNumber,
+    .mcqSubmit .scoreCard table .AB {
+        font-size: 12px;
+    }
+
+    .mcqSubmit .scoreCard table .incorrect,
+    .mcqSubmit .scoreCard table .correct {
+        font-size: 12px;
+    }
+     
+    .addinput2{
+        height: 193px;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .img9{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 161px;
+    }
+}

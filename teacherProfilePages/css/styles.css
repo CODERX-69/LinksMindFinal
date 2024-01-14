@@ -1,0 +1,635 @@
+@media (max-width:440px) {
+    #title {
+        justify-content: center !important;
+    }
+}
+/* @media (max-width:356px) {
+.content {
+        margin-right: 1px !important;
+        margin-left: 1px !important;
+}
+} */
+
+.percentCircle {
+    background-image: url(../teacherProfilePages/img/percentBg.png);
+    /* width: fit-content; */
+    /* height: fit-content; */
+    background-size: cover;
+    width: 123px;
+    height: 123px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    animation: blink 1s ease-in infinite;
+}
+
+/* Teacher Profile Edit course Page */
+
+#t_edit_profile .text {
+    font-size: 19px;
+}
+
+@media screen and (max-width:500px) {
+    #t_edit_profile .text {
+        font-size: 15px;
+    }
+}
+
+/* Teacher Profile Edit course Page End*/
+
+/* Teacher Video Edit Course */
+#videoEdit,
+#videoRemove {
+    color: #000;
+    font-size: 14px;
+}
+
+#videoEdit img,
+#videoRemove img {
+    height: 15px;
+    width: 15px;
+}
+
+@media (max-width:430px) {
+
+    #videoEdit,
+    #videoRemove {
+        color: #000;
+        font-size: 12px;
+    }
+
+    #videoEdit img,
+    #videoRemove img {
+        height: 13px;
+        width: 13px;
+    }
+}
+
+@media (max-width:363px) {
+    #courseCard-footer {
+        justify-content: center !important;
+    }
+}
+
+/* Teacher Video Edit Course End */
+
+
+/* Study Material Edit Page */
+.fa-thumbs-up {
+    color: #FFBB00;
+}
+
+@media (max-width:450px) {
+    #studyMaterial-footer {
+        justify-content: center !important;
+    }
+}
+
+/* Study Material Edit Page End */
+
+/* Avhhyas Edit */
+
+.pro_avhhyas {
+    width: 12px;
+    height: 10px;
+}
+
+@media (min-width:991px) and (max-width:1204px) {
+
+    .rating {
+        font-size: small;
+    }
+}
+
+/* Avhhyas Edit End */
+
+/* Recorded Video 1 */
+.bigVideoRecorded {
+    padding: 10px;
+    border: 1px solid #FFBB00;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:330px) {
+    #buttonRecorded {
+        margin-left: 0.5rem;
+    }
+}
+
+/* Recorded Video 1 End */
+/* Reshuffle */
+@media (max-width:768px) {
+
+    #reshuffle iframe {
+        height: 200px;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:991px) and (max-width:1207px) {
+
+    #reshuffle {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+#socialIcon {
+    row-gap: 0.5rem;
+}
+
+.coursesDetail .container {
+    padding: 0;
+}
+
+/* Reshuffle End */
+
+
+/*  Student Profile Detail */
+
+.viewBtn a {
+    text-decoration: none;
+    color: #FFBB00;
+}
+
+.percentage {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+}
+
+.percentage img {
+    position: absolute;
+    top: 29%;
+    left: 28%;
+}
+
+.blackCard input {
+    width: 100px;
+}
+
+.blackCard input::placeholder {
+    font-size: 6px;
+}
+
+.profileDate {
+    border: 1px solid #FFBB00;
+    border-radius: 6px;
+}
+
+@media (min-width:576px) and (max-width:650px) {
+    .scoreCard .blackCard .performanceText {
+        font-size: 16px !important;
+    }
+
+    .percentage {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/* Student Profile Detail End */
+
+/* Job Notification */
+.yellowFont {
+    color: #FFBB00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#job-card {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#jobs p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+#content h2 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+}
+
+.applyBtn {
+    border: 1px solid #FFBB00;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFBB00;
+    background: transparent;
+}
+
+@media (max-width:768px) {
+    #proPic {
+        justify-content: center;
+    }
+
+    #jobsName {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nameDetails {
+        justify-content: center;
+    }
+}
+
+/* Job Notification End */
+/* Contact Us */
+
+@media (min-width:768px) {
+    .supportAddress .addressText1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .supportAddress .addressText1 {
+        font-size: 9px;
+    }
+}
+
+@media (min-width:501px) and (max-width:768px) {
+    .supportAddress .addressText1 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:376px) and (max-width:500px) {
+    .supportAddress .addressText1 {
+        font-size: 11px;
+    }
+}
+
+/* Contact Us End */
+
+#revenueCard .blackFont,
+#revenueCard .greyFont {
+    font-size: 20px !important;
+}
+
+.revenueBtn {
+    height: fit-content;
+    padding: 0.2rem;
+    background: #F5F5F5;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.revenueBtn button {
+    background: #FFBB00;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    color: #FFFFFF;
+}
+
+#reverse {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
+
+#reverse a{
+    margin-right: 11%;
+    /* width: 30%; */
+}
+
+
+#verti_line {
+    color: #FFBB00;
+}
+@media (max-width:333px) {
+    #revenueCard #reverse button {
+           font-size: inherit;
+        }
+}
+@media (max-width:692px) {
+    #reverse h5 {
+        font-size: 0.8rem !important;
+    }
+}
+
+/* Create Blogs */
+.button {
+    background-color: #E5E5E5;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #FFBB00;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.button5 {
+    border-radius: 50%;
+}
+
+
+.box6 {
+    background: #F5F5F5;
+    border-radius: 12px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.button5:hover {
+    background-color: #FFBB00;
+}
+
+.about2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.step {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-align: end;
+
+}
+
+.number2 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: end;
+    color: #000000;
+
+}
+
+.tell {
+    font-weight: 700;
+    font-size: 24px;
+    color: #101010;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.fname {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 13px;
+    color: #000000;
+    padding-left: 0px;
+    opacity: 0.7;
+    margin-bottom: 0px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+
+}
+
+
+@media screen and (max-width:320px) {
+    .box6 {
+        padding-top: 20px;
+    }
+
+    .fname {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+
+    .input {
+
+        font-size: 13px;
+
+    }
+}
+
+.nextBtn {
+    background: #FFBB00;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    width: 100%;
+    opacity: 0.8;
+    color: white;
+}
+
+.nameinput {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    height: 55px;
+}
+.name4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+
+    opacity: 0.7;
+}
+.name5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+.words {
+    text-align: end;
+    justify-content: end;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #686868;
+}
+
+.textinput {
+    width: 100%;
+    height: 160px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+.upload {
+    margin-top: 27px;
+    margin-bottom: 35px;
+}
+.pubtn:hover {
+    background: #FFBB00;
+    color: #F5F5F5;
+    border: none;
+}
+
+.pubtn {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    width: 100%;
+    color: #000000;
+
+    opacity: 0.8;
+}
+.pubbtn {
+    background: #FFBB00;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    width: 100%;
+    color: white;
+
+    opacity: 0.8;
+}
+.box2 {
+    background: #FFBB00;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.img17 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.create3 {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+    /* text input field */
+
+    color: #FAFAFA;
+
+}
+.avhhyasDate {
+    border: 1px solid #FFBB00;
+    border-radius: 6px;
+}
+@media (max-width:768px) {
+    /* .box6 .img-fluid {
+        display: none;
+    } */
+
+    #btnCol {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:762px) {
+    .uploadbox {
+        justify-content: center;
+    }
+
+    .name4 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .name5 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .nameinput {
+        height: 40px;
+    }
+
+    .textinput {
+        height: 80px;
+    }
+
+    .box6 {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1202px) {
+    .about2 {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+}
+
+
+.questionCard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.questionCard .name {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.65;
+}
+#blogSection .questionCard {
+    cursor: pointer;
+}
+.lightGreyBigText {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+}
+#blogSection .blogImg {
+    width: 100%;
+}
+@media (max-width:500px) {
+    .questionCard .name {
+            font-size: 18px;
+        }
+    
+        .lightGreyBigText {
+            font-size: 16px;
+        }
+}
+/* @media screen and (min-width:319px) and (max-width:540px) {
+
+
+} */

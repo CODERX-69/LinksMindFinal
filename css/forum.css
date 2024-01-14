@@ -1,0 +1,417 @@
+#forumHomePage {
+    background-image: url(../img/forumPageImg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#forumHomePage .whiteCurls {
+    margin-left: 32%;
+}
+
+#forumHomePage .whiteHr {
+    width: 38%;
+    height: 7px;
+    background: #FFFFFF;
+    /* border: 7px solid #FFFFFF; */
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.forumPageProfileImg {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+
+.forumPageProfileImgCircle {
+    width: 60px;
+    height: 60px;
+    /* margin-left: -40px; */
+    position: absolute;
+}
+
+.lightGreySmallText {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.postQuestion {
+    max-width: 896px;
+    width: 100%;
+}
+
+.askAQuestion {
+    height: 60px;
+    background: #FAFAFA;
+    border: 1px solid #F5F5F5;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.askAQuestion input[type=text] {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #AFADAD;
+    outline: none;
+    border: none;
+    background: #FAFAFA;
+}
+
+.askAQuestion .sendBtn {
+    width: 53px;
+    height: 49.88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFBB00;
+    border-radius: 34px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .lightGreySmallText {
+        font-size: 12px;
+    }
+
+    .postQuestion {
+        max-width: 896px;
+        width: 99%;
+    }
+
+    .askAQuestion {
+        height: 40px;
+    }
+
+    .askAQuestion input[type=text] {
+        font-size: 12px;
+    }
+
+    .askAQuestion .sendBtn {
+        width: 33px;
+        height: 32.88px;
+    }
+
+    .askAQuestion .sendBtn img {
+        width: 50%;
+    }
+}
+
+.questionCard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.questionCard .name {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.forumPageProfileImg2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+
+.forumPageProfileImgCircle2 {
+    width: 60px;
+    height: 60px;
+    /* margin-left: -40px; */
+    position: absolute;
+}
+
+.lightGreyBigText {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.showMore {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+}
+
+.showMore:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.answerText {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFBB00;
+    opacity: 0.7;
+}
+
+.commentText {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.commentText:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.answerNumber {
+    font-weight: 600;
+    color: #000;
+    opacity: 0.7;
+}
+
+.greyBox {
+    width: 95%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greyBoxName {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.greyBox textarea {
+    width: 90%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.greyBox textarea:focus {
+    outline: none;
+}
+
+.greyBox .cancelBtn {
+    background: #FFFFFF;
+    border: 1px solid #FFBB00;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFBB00;
+    padding: 5px 10px 5px 10px;
+}
+
+.greyBox .submitBtn,
+.BlogPagesubmitBtn {
+    background: #FFBB00;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width:500px) {
+    .questionCard .name {
+        font-size: 18px;
+    }
+
+    .lightGreyBigText {
+        font-size: 16px;
+    }
+
+    .showMore {
+        font-size: 12px;
+    }
+
+    .answerText {
+        font-size: 18px;
+    }
+
+    .commentText {
+        font-size: 16px;
+    }
+
+    .greyBox .cancelBtn,
+    .greyBox .submitBtn,
+    .BlogPagesubmitBtn {
+        font-size: 16px;
+    }
+}
+
+.questionCard2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.questionCard2 .name2 {
+    font-weight: 700;
+    font-size: 19px;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.rightBox {
+    border: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.rightBox h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+#blogSection .questionCard {
+    cursor: pointer;
+}
+
+/* BlogPage css */
+#BlogHomePage {
+    background: url(../img/blogDetailsBgImg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#BlogHomePage .whiteCurls {
+    margin-left: 50%;
+}
+
+#BlogHomePage .whiteHr {
+    width: 48%;
+    height: 7px;
+    background: #FFFFFF;
+}
+
+#BlogHomePage h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#BlogHomePage h5 {
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#BlogHomePage .topicTag {
+    background: #FFBB00;
+    border-radius: 80px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+.blogHeading {
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+    opacity: 0.8;
+    border-left: 7px solid #FFBB00;
+}
+
+.blogContent,
+.shareThistext {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.blogHeading2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.lastP {
+    border-bottom: 1px solid #FFBB00;
+}
+
+.blogTag {
+    width: fit-content;
+    height: fit-content;
+    background: #FFBB00;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.blogPageTextArea {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.7;
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .blogHeading {
+        font-size: 22px;
+    }
+
+    .blogContent {
+        font-size: 16px;
+    }
+
+    .blogHeading2 {
+        font-size: 20px;
+    }
+
+    #BlogHomePage .whiteHr {
+        width: 33%;
+    }
+
+    #BlogHomePage h1 {
+        font-size: 30px;
+    }
+
+    #BlogHomePage h5 {
+        font-size: 16px;
+    }
+
+    #BlogHomePage .topicTag {
+        font-size: 20px;
+    }
+
+    .shareThistext {
+        font-size: 12px;
+    }
+
+    .blogShareLinks {
+        width: 20px;
+    }
+
+    .blogTag {
+        font-size: 10px;
+    }
+}

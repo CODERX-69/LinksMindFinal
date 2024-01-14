@@ -1,0 +1,423 @@
+.accountDetailsContainer {
+    width: 100%;
+    /* height: 163px;s */
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+}
+
+
+.profilePic {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.profilePicBg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.profileImg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.changeProfileImg {
+    position: absolute;
+    top: 38px;
+    left: 38px;
+    cursor: pointer;
+}
+
+.accountDetailsContent h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+
+.accountDetailsContent h2 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+}
+
+.accountDetailsContent h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.yellowColorText {
+    color: #FEBA00;
+}
+
+.accountDetailsContent .outerCircle {
+    width: 66px;
+    height: 66px;
+    background: #F5F5F5;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: blink 1s ease-in infinite;
+}
+
+.accountDetailsContent .innerCircle {
+    width: 54px;
+    height: 54px;
+    border: 5px solid #fff;
+    text-align: center;
+    padding-top: 10px;
+    background: #FFBB00;
+    border-radius: 50%;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.accountDetailsContent .innerCircle .percent {
+    font-size: 10px;
+}
+
+.editIcon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 88.92px;
+    width: 138px;
+    /* width: 138px; */
+}
+
+.selectAvailaibilityContainer {
+    width: 350px;
+    height: 135px;
+    background: #F5F5F5;
+    border: 1px solid #FFBB00;
+    border-radius: 14px;
+    padding: 20px 40px;
+}
+
+.selectAvailaibilityContent {
+    border-left: 4px solid #FFBB00;
+    padding-left: 10px;
+}
+
+.availableIcon {
+    width: 66px;
+    height: 66px;
+}
+
+.selectAvailaibilityContent h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.selectAvailaibilityContent h3 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.editText {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.editText:hover {
+    color: #000000;
+}
+
+.editIcon2 {
+    margin-left: -100px;
+}
+
+.daysInWeek {
+    background: #FFFFFF;
+    border: 1px solid #FFBB00;
+    border-radius: 12px;
+    padding: 50px 30px;
+}
+
+.daysInWeek h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.daysInWeek h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+.borderBottomDashed {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+}
+
+.passwordChangeLink,
+.passwordChangeLink:hover {
+    color: #FFBB00;
+}
+
+.editAccount label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.editAccount input[type=text],
+.editAccount input[type=number],
+.editAccount input[type=email],
+.editAccount .stateDropdown,
+.editAccount input[type=date] {
+    height: 40px;
+    width: 90%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+
+.editAccount textarea {
+    width: 95%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+
+.editAccount .stateDropdown:focus {
+    box-shadow: none;
+}
+
+.editAccount .addSubject {
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.editAccountDetailsSubmitBtn {
+    width: 230px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:992px) {
+
+    .profilePicBg {
+        width: 100%;
+    }
+
+    .profileImg {
+        width: 90%;
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    .changeProfileImg {
+        width: 50%;
+        top: 20px !important;
+        left: 20px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .profilePicBg {
+        top: 0;
+        left: 0;
+        width: 65px;
+    }
+
+    .profileImg {
+        width: 47.67px;
+        top: 8px !important;
+        left: 8px !important;
+    }
+
+    .changeProfileImg {
+        width: 26px;
+        top: 38px !important;
+        left: 38px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .accountDetailsContainer {
+        /* width: 90%; */
+        padding: 5px 5px 30px 5px;
+        position: relative;
+    }
+
+    .selectAvailaibilityContainer {
+        width: 270px;
+    }
+
+    .selectAvailaibilityContent h2 {
+        font-size: 17px;
+    }
+
+    .selectAvailaibilityContent h3 {
+        font-size: 14px;
+    }
+
+    .daysInWeek {
+        padding: 30px 5px;
+    }
+
+    .daysInWeek h2 {
+        font-size: 15px;
+    }
+
+    .daysInWeek h3 {
+        font-size: 13px;
+    }
+
+    .editAccount label {
+        font-size: 14px;
+    }
+
+    .editAccount input[type=text],
+    .editAccount input[type=number],
+    .editAccount input[type=email],
+    .editAccount .stateDropdown,
+    .editAccount input[type=date] {
+        height: 40px;
+        width: 100%;
+        background: #FFFFFF;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .editAccountDetailsSubmitBtn {
+        width: 180px;
+        height: 40px;
+    }
+
+    .availableIcon {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+.scheduleAvailabilityCarousel {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    width: 85%;
+}
+
+
+#scheduleClassModal2 .editScheduleBtn,
+#scheduleClassModal2 .scheduleBtn {
+    margin-top: 180px !important;
+}
+
+.scheduleAvailability-next {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px !important;
+    height: 31px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 60px rgba(41, 44, 124, 0.35);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.scheduleAvailability-next i {
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: 800;
+}
+
+.followBtn {
+    background: #FFBB00;
+    border: 1px solid #F5F5F5;
+    box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25);
+    border-radius: 26px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.rateYourTeacher {
+    max-width: 692px;
+    width: 100%;
+    min-height: 135px;
+    /* height: 100%; */
+    background: #F5F5F5;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+.rateYourTeacher .text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.rating-css div {
+    color: #FFBB00;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+
+.rating-css input {
+    display: none;
+}
+
+.rating-css input+label {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+    color: #838383;
+}
+
+.rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width:500px) {
+    .rateYourTeacher .text {
+        font-size: 14px;
+    }
+
+    .rating-css div {
+        padding: 10px 0;
+        margin-left: 0px;
+    }
+
+    .rating-css input+label {
+        font-size: 18px;
+    }
+
+    .submitBtn {
+        width: 50%;
+    }
+}

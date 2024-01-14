@@ -1,0 +1,513 @@
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.leftTop {
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    height: 80px;
+}
+
+.recorder {
+    width: 110px;
+    height: 48px;
+    background: rgba(55, 65, 81, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #D1D5DB;
+}
+
+.rightTop {
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    height: 80px;
+}
+
+.rightTop .participants {
+    background: rgba(55, 65, 81, 0.5);
+    border-radius: 10px;
+    width: 90%;
+    height: 56px;
+    margin-top: 12px;
+}
+
+.rightTop .participantsBtn {
+    width: 142px;
+    height: 48px;
+    background: #2D8CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.leftMiddle {
+    background: #101826;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    backdrop-filter: blur(24px);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.leftMiddle .frame {
+    width: 90%;
+    height: 600px;
+    background: rgba(55, 65, 81, 0.5);
+    border: 3px solid #FDE047;
+    border-radius: 8px;
+    position: relative;
+}
+
+.leftMiddle .frame .verified {
+    width: fit-content;
+    padding: 2px 5px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 6px 0px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+}
+
+.leftMiddle .frame .mute {
+    width: 31px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 6px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightMiddle {
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    backdrop-filter: blur(24px);
+    height: 800px;
+}
+
+.padding16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.rightMiddle .name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #D1D5DB;
+}
+
+.rightMiddle .title {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6B7280;
+}
+
+.rightMiddle .host {
+    width: fit-content;
+    padding: 4px 8px;
+    height: fit-content;
+    background: rgba(45, 140, 255, 0.1);
+    border: 1px solid rgba(45, 140, 255, 0.1);
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #2D8CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inviteBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 8px;
+    background: rgba(55, 65, 81, 0.5);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D1D5DB;
+    cursor: pointer;
+}
+
+.chat {
+    overflow-y: auto;
+    height: 370px;
+}
+
+.chat::-webkit-scrollbar {
+    width: 1px;
+}
+
+.rightMiddle .chatsHeading {
+    padding: 4px 8px;
+    width: 100%;
+    height: 32px;
+    background: rgba(31, 41, 55, 0.5);
+    padding: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightMiddle .marryImg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.rightMiddle .greyChat {
+    background: rgba(55, 65, 81, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D1D5DB;
+}
+
+.rightMiddle .blueChat {
+    background: rgba(45, 140, 255, 0.1);
+    border: 1px solid rgba(45, 140, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D1D5DB;
+    padding: 8px 12px;
+}
+
+.blueText {
+    color: #2D8CFF;
+}
+
+
+.leftBottom {
+    min-height: 100px;
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    backdrop-filter: blur(24px);
+    padding: 22px 16px;
+}
+
+.leftBottom .buttonsRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.leftBottom .volumeBox {
+    width: 128px;
+    height: 56px;
+    background: rgba(55, 65, 81, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    border-radius: 8px;
+}
+
+.leftBottom input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 64px;
+}
+
+/***** Track Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.leftBottom input[type="range"]::-webkit-slider-runnable-track {
+    background: rgba(31, 41, 55, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    height: 8px;
+    border-radius: 32px;
+}
+
+/******** Firefox ********/
+.leftBottom input[type="range"]::-moz-range-track {
+    background: rgba(31, 41, 55, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    height: 8px;
+    border-radius: 32px;
+}
+
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.leftBottom input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    margin-top: -12px;
+    /* Centers thumb on the track */
+    background: #4B5563;
+    box-shadow: 0px 2px 4px rgba(17, 24, 39, 0.5);
+    border-radius: 14px;
+    width: 4px;
+    height: 24px;
+    margin-top: -8px;
+}
+
+/***** Thumb Styles *****/
+/***** Firefox *****/
+.leftBottom input[type="range"]::-moz-range-thumb {
+    border: none;
+    /*Removes extra border that FF applies*/
+    border-radius: 0;
+    /*Removes default border-radius that FF applies*/
+    background: #4B5563;
+    box-shadow: 0px 2px 4px rgba(17, 24, 39, 0.5);
+    border-radius: 14px;
+    width: 4px;
+    height: 24px;
+}
+
+.leftBottom input[type=range]-moz-range-progress {
+    background-color: #2D8CFF;
+}
+
+.leftBottom .centerBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 56px;
+    background: rgba(55, 65, 81, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.leftBottom .centerBtnsBlue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 56px;
+    background: #2D8CFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.leftBottom .leaveMeeting {
+    width: 115px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #EF4444;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.rightBottom {
+    width: 100%;
+    padding: 10px 8px;
+    /* display: table-cell; */
+    min-height: 102px;
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+}
+
+.rightBottom input[type=text] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #6B7280;
+}
+
+.rightBottom .sendBtn {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #2D8CFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+
+    .leftTop,
+    .rightTop {
+        height: 60px;
+    }
+
+    .recorder {
+        width: 90px;
+        height: 38px;
+    }
+
+    .rightTop .participants {
+        height: 46px;
+        margin-top: 12px;
+    }
+
+    .rightTop .participantsBtn {
+        width: 100%;
+        height: 38px;
+        font-size: 7px;
+    }
+
+    .rightTop .participantsIcon {
+        width: 10px;
+    }
+
+    .leftMiddle {
+        height: 400px;
+    }
+
+    .leftMiddle .frame {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .chat {
+        overflow-y: auto;
+        height: 300px;
+    }
+
+    .leftBottom .volumeBox {
+        width: 108px;
+    }
+
+    .leftBottom input[type="range"] {
+        width: 54px;
+    }
+
+    .leftBottom .centerBtns,
+    .leftBottom .centerBtnsBlue {
+        width: 46px;
+        height: 46px;
+    }
+
+    .leftBottom .centerBtns .icons,
+    .leftBottom .centerBtnsBlue .icons {
+        width: 15px;
+    }
+
+    .leftBottom .leaveMeeting {
+        width: 95px;
+        height: 46px;
+    }
+
+}
+
+@media screen and (max-width:820px) {
+    .chat {
+        overflow-y: auto;
+        height: 270px;
+    }
+
+    .leftBottom .volumeBox {
+        width: 108px;
+    }
+
+    .leftBottom input[type="range"] {
+        width: 54px;
+    }
+
+    .leftBottom .centerBtns,
+    .leftBottom .centerBtnsBlue {
+        width: 46px;
+        height: 46px;
+        margin-top: 5px;
+    }
+
+    .leftBottom .centerBtns .icons,
+    .leftBottom .centerBtnsBlue .icons {
+        width: 15px;
+    }
+
+    .leftBottom .leaveMeeting {
+        width: 95px;
+        height: 46px;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .chat {
+        overflow-y: auto;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .leftBottom .buttonsRow {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+}
+
+.videoReview {
+    height: 190px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    color: #000000;
+    opacity: 0.4;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.videoReviewSubmitBtn {
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FFBB00;
+    border-radius: 8px;
+}
+
+.teacherAbsent {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.yellowColorText:hover {
+    color: #FFBB00;
+}
+
+@media screen and (max-width:500px) {
+    #rateModal h5 {
+        font-size: 16px !important;
+    }
+
+    .rating-css .fa-star {
+        margin-left: -5px;
+    }
+}

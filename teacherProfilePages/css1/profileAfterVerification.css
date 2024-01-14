@@ -1,0 +1,639 @@
+.backcard{
+    margin-top: 18px;
+    background: linear-gradient(133.27deg, #FFBB00 -8.35%, #E5AA08 123.66%);
+    border-radius: 12px;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: fit-content;
+    border: 2px dashed #FFFFFF;
+    margin-bottom: 67px;
+}
+
+.congo{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+
+/* margin-top: 50px; */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.box h2{
+    font-weight: 700;
+font-size: 36px;
+
+/* identical to box height, or 65px */
+
+
+color: #FFFFFF;
+}
+
+.box h3{
+    font-weight: 500;
+font-size: 28px;
+
+/* or 50px */
+
+
+color: #FFFFFF;
+}
+
+.days{
+    font-weight: 800;
+font-size: 36px;
+
+/* identical to box height, or 65px */
+text-align: center;
+justify-content: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+
+.btn4{
+    text-align: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.img3{
+    width: 65px;
+}
+
+.img4{
+margin-top: 20px;
+}
+
+.img41{
+    text-align: center;
+    width: 84px;
+}
+.box3{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 63px;
+    margin-top: 35px;
+}
+.box h3{
+    text-align: center;
+}
+.benefits{
+    font-weight: 700;
+font-size: 32px;
+
+/* identical to box height, or 58px */
+margin-top: 35px;
+color: #000000;
+
+opacity: 0.7;
+}
+
+.study{
+    font-weight: 600;
+font-size: 22px;
+
+margin-top: 10px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+.study2{
+    font-weight: 600;
+font-size: 22px;
+
+margin-top: 10px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.test{
+    font-weight: 600;
+font-size: 22px;
+
+/* identical to box height, or 40px */
+margin-top: 10px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.have{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-top: 28px;
+ 
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+.mobno{
+    font-weight: 1000;
+    color: black;
+    text-decoration: underline;
+}
+
+.tel{
+    color: black;
+    text-decoration: underline;
+}
+.lastrow{
+    margin-bottom: 40px;
+}
+
+.payment{
+    font-weight: 800;
+font-size: 32px;
+
+/* identical to box height, or 58px */
+
+
+color: #000000;
+margin-top: 45px;
+margin-bottom: 25px;
+opacity: 0.7;
+}
+
+.box5{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+border-radius: 8px;
+padding-top: 10px;
+padding-left: 27px;
+}
+
+.radiotype{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.google{
+    font-weight: 500;
+font-size: 22px;
+
+/* identical to box height, or 40px */
+
+
+color: #000000;
+
+opacity: 0.5;
+}
+
+.btn4{
+    justify-content: center;
+    text-align: center;
+}
+
+.strategy{
+    font-weight: 500;
+font-size: 24px;
+
+/* or 43px */
+padding-bottom: 10px;
+
+color: #000000;
+
+opacity: 0.5;
+}
+
+.radio{
+    text-align: center;
+}
+
+.selectPaymentOption:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -4px;
+    left: -1px;
+    position: relative;
+    background-color: #FFBB00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.couponCodeText {
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.scholar {
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin-top: 11px;
+
+}
+
+.tel{
+    text-decoration: none;
+}
+
+.coupon{
+    font-weight: 600;
+font-size: 20px;
+
+color: #FFFFFF;
+}
+
+.couponCodeText:focus {
+    outline: none;
+}
+
+.add{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+    /* identical to box height, or 58px */
+    text-align: center;
+    margin-top: 45px;
+    color: #000000;
+    
+    opacity: 0.7;
+}
+
+.this{
+    font-weight: 400;
+font-size: 16px;
+
+/* or 150% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);
+margin-top: 47px;
+mix-blend-mode: normal;
+opacity: 0.64;
+}
+
+.card1{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.exp1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    
+    color: #000000;
+    
+    opacity: 0.7; 
+}
+
+.row2{
+    margin-top: 32px;
+}
+
+.cvv1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #000000;
+    
+    opacity: 0.7; 
+}
+.card{
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.12);
+border-radius: 8px;
+width: 100%;
+height: 60px;
+margin-top: 17px;
+
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.cvv{
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    margin-top: 17px;
+}
+.exp{
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    padding-left: 28px;
+    margin-top: 17px;
+}
+
+#card12{
+    background-image: url(../img/img6.png);
+    background-repeat: no-repeat;
+    background-position-x: 26px;
+    background-position-y: 15px;
+    padding-left: 65px;
+}
+
+.invoice{
+    font-weight: 700;
+font-size: 32px;
+color: #000000;
+text-align: center;
+margin-top: 38px;
+opacity: 0.7;
+}
+
+.date2{
+
+    font-weight: 600;
+font-size: 18px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.9);
+margin-bottom: 35px;
+opacity: 0.7;
+}
+
+.detailbox{
+    background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.12);
+padding: 26px 90px 53px 90px;
+margin-top: 54px;
+}
+
+.orderid{
+    font-weight: 600;
+font-size: 22px;
+color: rgba(0, 0, 0, 0.9);
+}
+
+.orderdetail{
+    font-weight: 600;
+font-size: 22px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+/* #progrmbtn{
+    color:#FFBB00;
+    border-radius: 15px;
+}
+#progrmbtn:hover{
+ text-decoration: underline;
+} */
+
+@media screen and (min-width:321px)and (max-width:694px){
+    .days{
+        font-size: 26px;
+    }
+    .box h2{
+        font-size: 26px;
+    }
+    .box h3{
+        font-size: 20px;
+    }
+    .box{
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1164px)
+{
+    .days{
+        font-size: 26px;
+    }
+    .box h2{
+        font-size: 26px;
+    }
+    .box h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:507px)
+{
+    .days{
+        font-size: 26px;
+    }
+    .box h2{
+        font-size: 26px;
+    }
+    .box h3{
+        font-size: 20px;
+    }
+
+    .box{
+        margin-bottom: 0px;
+    }
+    .benefits {
+        font-size: 20px;
+    }
+
+    .study{
+        font-size: 12px;
+    }
+    .study2{
+        font-size: 12px;
+    }
+    .test{
+        font-size: 12px;
+    }
+    .have{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .google {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .radiotype {
+        margin-top: 7px;
+        }
+    
+    .strategy {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .payment {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .img3 {
+        width: 36px;
+    }
+
+    .congo{
+        font-size: 16px;
+    }
+    .study2{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .couponCodeText{
+        width: 102px;
+        font-size: 10px;
+        width: 129px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .box3{
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .add {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 21px;
+        color: #000000;
+        opacity: 0.7;
+    }
+    
+    .this {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .card1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    #card12 {
+        background-image: url(../img/img6.png);
+        background-repeat: no-repeat;
+        background-position-x: 13px;
+        background-position-y: 8px;
+        padding-left: 65px;
+    }
+    
+    .card {
+        background: #FFFFFF;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 100%;
+        height: 41px;
+        /* margin-top: 17px; */
+    }
+    
+    .exp {
+        background: #FFFFFF;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 100%;
+        height: 43px;
+        padding-left: 28px;
+        margin-top: 0px;
+    }
+    
+    .cvv {
+        background: #FFFFFF;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 100%;
+        height: 48px;
+        margin-top: 0px;
+    }
+    
+    .exp1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .cvv1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .this{
+        margin-top: 0px;
+    }
+
+    .detailbox{
+        padding: 2px 16px 2px 16px;
+        margin-top: 10px
+    }
+    .orderid{
+        font-size: 10px;
+    }
+
+    .orderdetail{
+        font-size: 10px;
+    }
+
+    .date2{
+        font-size: 17px;
+    }
+
+    .invoice{
+        margin-top: 13px;
+    }
+
+}
+
+@media screen and (min-width:521px) and (max-width:1089px){
+    .detailbox{
+        padding-left:16px;
+        padding-right: 16px;
+        margin-top: 10px
+    }
+    .orderid{
+        font-size: 15px;
+    }
+
+    .orderdetail{
+        font-size: 15px;
+    }
+
+    .date2{
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .invoice{
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .coupancode{
+        text-align: center;
+        justify-content: center;
+    }
+    .img4{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN link v5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link v6.1.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons cdn link v1.8.2-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.2/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/mcqTest.css">
+    <link rel="stylesheet" href="css/accountDetail.css">
+    <link rel="stylesheet" href="./css/studentReportCard.css">
+    <title>Links Mind</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light" id="toGetTop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/darkLogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../studyMaterial.html">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../forum.html">Discussion Forum</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search here...">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <li class="nav-item d-flex ms-2 justify-content-between">
+                        <a class="nav-link" href="../cart.html"><img src="../img/cartIcon.png" alt=""></a>
+                        <a class="nav-link" href="../login.html"><button class="loginBtn px-4 py-1">Teacher</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="toggle">
+        <i class="fa-solid fa-bars close"></i>
+        <i class="fa-solid fa-bars-staggered open"></i>
+    </div>
+    <div class="d-flex">
+        <div class="navigation active">
+            <div class="scholarShipPointsBox">
+                <div>
+                    <div class="pointsCircle">
+                        <div class="pointsCircle2">
+                            <h1>900</h1>
+                            <h2>Points</h2>
+                        </div>
+                    </div>
+                    <span class="title text-light">Scholarship Points</span>
+                </div>
+            </div>
+            <ul>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><img src="./img/dashboardIconLight.png" alt=""></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileStats.html">
+                        <span class="icon"><img src="./img/progressIcon.png" alt=""></span>
+                        <span class="title">Stats</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="createCourse.html">
+                        <span class="icon"><img src="./img/createCourse.png" alt=""></span>
+                        <span class="title">create Courses</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="assignedCourses.html">
+                        <span class="icon"><img src="./img/AssignedCourse.png" alt=""></span>
+                        <span class="title">Assigned Courses</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileAssesments.html">
+                        <span class="icon"><img src="./img/assesmentsIcon.png" alt=""></span>
+                        <span class="title">Assesments</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileDetails.html">
+                        <span class="icon"><img src="./img/accountDetailsIcon.png" alt=""></span>
+                        <span class="title">Account Details</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="creditPoints.html">
+                        <span class="icon"><img src="./img/scholarshipPointsIcon.png" alt=""></span>
+                        <span class="title">Credited Points</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileEditCourse.html">
+                        <span class="icon"><img src="./img/reshuffleCoursesIcon.png" alt=""></span>
+                        <span class="title">Edit Courses</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="studentProfile.html">
+                        <span class="icon"><img src="./img/followedTeacherIcon.png" alt=""></span>
+                        <span class="title">Students</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileReportCard.html">
+                        <span class="icon"><img src="./img/studentReportCardIcon.png" alt=""></span>
+                        <span class="title">Report Card</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="coupons.html">
+                        <span class="icon"><img src="./img/couponsIcon.png" alt=""></span>
+                        <span class="title">Coupons</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="recordedVideo.html">
+                        <span class="icon"><img src="./img/recordedVideosIcon.png" alt=""></span>
+                        <span class="title">Recorded Videos</span>
+                    </a>
+                </li>
+                <li class="list ">
+                    <a href="jobNotification.html">
+                        <span class="icon"><img src="./img/jobDesc.png" alt=""></span>
+                        <span class="title">Job Notification</span>
+                    </a>
+                </li>
+                <li class="list ">
+                    <a href="createBlogs.html">
+                        <span class="icon"><img src="./img/createBlog.png" alt=""></span>
+                        <span class="title">Create Blogs</span>
+                    </a>
+                </li>
+                <li class="list ">
+                    <a href="reshuffleCourse.html">
+                        <span class="icon"><img src="./img/reshuffleCoursesIcon.png" alt=""></span>
+                        <span class="title">Reshuffle Courses</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="revenueStats.html">
+                        <b></b>
+                        <b></b>
+                        <span class="icon"><img src="./img/ReveneuDark.png" alt=""></span>
+                        <span class="title">Revenue Stats</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="supportSection ps-4">
+                <h1 class="pt-5">Support 24/7</h1>
+                <h2>Contacts us anytime</h2>
+                <a href="support.html"><button class="startBtn">Start</button></a>
+                <img src="./img/supportImg.png" alt="">
+            </div>
+
+            <a href="#" class="text-decoration-none"><button class="logOutBtn mt-5"><img src="./img/logOutIcon.png"
+                        alt=""> Logout</button></a>
+        </div>
+
+        <div class="content active py-3 px-sm-4 px-2">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+                <div class="contentSearchBar me-4 d-flex align-items-center">
+                    <img src="./img/searchIcon.png" class="ms-4" alt="">
+                    <input type="text" class="ms-3" placeholder="Search...">
+                </div>
+                <a href="#" class="text-decoration-none ms-auto" data-bs-toggle="modal"
+                    data-bs-target="#emptyNotification">
+                    <div class="bellBtn"><img src="./img/bellIcon.png" alt=""></div>
+                </a>
+            </div>
+            <!-- Notification Modals -->
+            <!--  Notification Modal 1 -->
+            <div class="modal" tabindex="-1" id="emptyNotification">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="heading text-center mt-5">No New Notification Yet</div>
+                            <img src="./img/notification.png" class="d-block mx-auto mb-5 notificationBell" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  Notification Modal 1 ends -->
+            <!-- Notification Modals ends -->
+
+            <div class="d-flex align-items-center mt-3 justify-content-between">
+                <div>
+                    <div class="upcomingHeading">Revenue Stats</div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="contentFilter me-3" data-bs-toggle="modal" data-bs-target="#oneOnOneFilterModal"
+                        role="button">
+                        <img src="/img/filter.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- filter modal 1 -->
+            <div class="modal" tabindex="-1" id="oneOnOneFilterModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="../img/filter.png" alt="">
+                            <h5 class="modal-title filterHeading">Filter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="allAccordion">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item mt-3">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="true" aria-controls="collapseTwo">
+                                                Board
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex flex-wrap">
+                                                    <div class="choices me-2 mt-2">State Board (90)</div>
+                                                    <div class="choices me-2 mt-2">CBSE (167)</div>
+                                                    <div class="choices me-2 mt-2">ICSE (456)</div>
+                                                    <div class="choices me-2 mt-2">M.P Board (90)</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item mt-3">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="true" aria-controls="collapseThree">
+                                                Class
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex flex-wrap">
+                                                    <div class="choices me-2 mt-2">KG</div>
+                                                    <div class="choices me-2 mt-2">LKG</div>
+                                                    <div class="choices me-2 mt-2">UKG</div>
+                                                    <div class="choices me-2 mt-2">1st</div>
+                                                    <div class="choices me-2 mt-2">2nd</div>
+                                                    <div class="choices me-2 mt-2">3rd</div>
+                                                    <div class="choices me-2 mt-2">4th</div>
+                                                    <div class="choices me-2 mt-2">5th</div>
+                                                    <div class="choices me-2 mt-2">6th</div>
+                                                    <div class="choices me-2 mt-2">7th</div>
+
+                                                </div>
+                                                <a href="#" class="showAll">Show all <i
+                                                        class="fa-solid fa-angle-down"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item mt-3">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="true" aria-controls="collapseFour">
+                                                Stream
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex flex-wrap">
+                                                    <div class="choices me-2 mt-2">Science</div>
+                                                    <div class="choices me-2 mt-2">Commerce</div>
+                                                    <div class="choices me-2 mt-2">Arts</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item mt-3">
+                                        <h2 class="accordion-header" id="headingSeven">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                aria-expanded="true" aria-controls="collapseSeven">
+                                                Subjects
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex flex-wrap">
+                                                    <div class="choices me-2 mt-2">Physics</div>
+                                                    <div class="choices me-2 mt-2">Maths</div>
+                                                    <div class="choices me-2 mt-2">Chemistry</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item mt-3">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                aria-expanded="true" aria-controls="collapseFive">
+                                                Revenue Stats
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex flex-wrap">
+                                                    <div class="choices me-2 mt-2">Daily</div>
+                                                    <div class="choices me-2 mt-2">Monthly</div>
+                                                    <div class="choices me-2 mt-2">Yearly</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <button type="button" class="btn px-3 me-3" id="clearBtn">Clear</button>
+                                <button type="button" class="btn searchBtn px-3" data-bs-dismiss="modal">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- filter modal 1 ends -->
+
+            <div class="accountDetailsContainer mt-3">
+                <div class="row accountDetailsContent">
+                    <div class="col-md-1 mx-auto">
+                        <div class="profilePic">
+                            <img src="./img/profilePicBg.png" class="profilePicBg" alt="">
+                            <img src="./img/profileImg.png" class="profileImg" alt="">
+                            <img src="./img/changeProfileImg.png" class="changeProfileImg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 ps-3">
+                        <h1 class="mt-2">Riya sharma</h1>
+                        <div class="d-flex flex-wrap">
+                            <div class="teacherDescription"> Maths Teacher <span class="yellowColorText">|</span>
+                                <span class="text-muted">LM Id
+                                    :</span>
+                                #584151213331
+                            </div>
+                            <span class="yellowColorText">|</span>
+                            <span class="text-muted text-end">Followers
+                                : </span>
+                            1.5K
+                        </div>
+                        <div class="d-flex mt-3 flex-wrap">
+                            <h2 class="me-2"><i class="fa-regular fa-envelope yellowColorText"></i> abc@gmail.com</h2>
+                            <h2 class="me-2"><img src="./img/telephoneIcon.png" alt=""> +91-986543210</h2>
+                            <h2 class="me-2"><img src="./img/locationIcon.png" alt=""> Pune, Maharashtra</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-5 d-flex flex-wrap justify-content-center align-items-center ps-3">
+                        <div class="d-flex align-items-center">
+                            <h1 class="align-text-center mb-0 me-1"><b>Total Revenue : </b></h1>
+                            <div class="revenueBtn"><button>5000</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scoreCardHeading mt-4 text-center py-1">Revenue Card
+                <p>( Revenue generated in a month )</p>
+            </div>
+            <div class="scoreCard py-4 px-md-4 px-3 mt-3 " id="revenueCard">
+                <div class="row d-flex justify-content-between borderBottomYellow pb-4">
+                    <div class="col-5 blackFont d-flex ">Avhhyas</div>
+                    <div class="col-2 d-flex justify-content-center align-items-center" id="verti_line">|</div>
+                    <div class="col-5 d-flex justify-content-center flex-wrap"> <span class="greyFont me-2"><b>Total
+                                Revenue:
+                            </b></span>
+                        <div class="revenueBtn"><button>5000</button></div>
+                    </div>
+                    <h5 class="mb-0 mt-4 text-end">Due Amount: <b>2000</b></h5>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-6">
+                        <span class="greyFont">Total Number Of Students : </span><span class="blackFont">20</span> <br>
+                        <span class="greyFont">Total Number Of Classes : </span><span class="blackFont">30</span> <br>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="greyFont">Total Number Of Classes Left : </span><span class="blackFont">20</span>
+                        <br>
+                        <span class="greyFont">Total Number Of Classes Completed : </span><span
+                            class="blackFont">10</span> <br>
+                    </div>
+                </div>
+            </div>
+            <ul class="mt-4">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non quam in quis.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="scoreCard py-4 px-md-4 px-3 mt-3">
+    <div class="d-flex justify-content-between borderBottomYellow pb-4">
+        <div class="blackFont">Personal Learning Course</div>
+        <div> <span class="greyFont">Subject : </span><span class="blackFont"> ALL</span></div>
+    </div>
+    <div class="mt-4">
+        <span class="smallGreyFont">Start Date :</span>
+        <span class="smallBlackFont">22/03/2022</span>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-6">
+            <span class="greyFont">Total Number Of Classes : </span><span class="blackFont">30</span> <br>
+            <span class="greyFont">Total Number Of Classes Left : </span><span class="blackFont">20</span>
+            <br>
+            <span class="greyFont">Total Number Of Classes Completed : </span><span class="blackFont">10</span>
+        </div>
+        <div class="col-sm-6">
+            <div class="blackCard mx-auto mt-sm-0 mt-3">
+                <div class="d-flex">
+                    <img src="./img/percentImg.png" class="me-3" alt="">
+                    <div>
+                        <div class="percentText">49.65%</div>
+                        <div class="performanceText">Performance</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mt-2 ms-2">
+                    <img src="./img/arrowTopRight.png" width="9.33px" height="9.33px" class="me-1" alt="">
+                    <div class="increasePercent me-2">1.20%</div>
+                    <div class="increasePercent opacity8">since last year</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="border-end col-lg-3 pe-2 pt-2">
+                    <img src="../img/darkLogo.png" class="footerLogo" alt="">
+                    <h2 class="text-light mt-1">Connecting Beautiful Minds</h2>
+                    <h3 class="text-light mt-2">LINKSMIND EDUCORP PVT LTD</h3>
+                    <h3 class="text-light">-Unit of EDURESEARCH LINKSMIND LLP</h3>
+                    <div class="d-flex align-items-center text-light mt-3">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div class="ms-3 addressTelMail">Dummy Address</div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="ms-3 addressTelMail"><a href="tel:(+91) 9876543210">(+91) 9876543210</a></div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="ms-3 addressTelMail"><a href="mailto:abc@mail.com">abc@mail.com</a></div>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <a href="#" class="ms-2"><img src="../img/footerYoutube.png" class="footerYoutube" alt=""></a>
+                        <a href="#" class="ms-2"><img src="../img/footerLinkedIn.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="../img/footerInsta.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="../img/footerTwitter.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="../img/footerFb.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 ps-md-5 pt-4">
+                    <div class="headings">Quick Links</div>
+                    <div class="d-flex footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="../aboutUs.html">About Us</a></div>
+                            <div class="mt-1"><a href="../contact.html">Contact </a></div>
+                            <div class="mt-1"><a href="../privacyPolicy.html">Privacy Policy</a></div>
+                            <div class="mt-1"><a href="../termsCondition.html">Terms & Condition</a></div>
+                            <div class="mt-1"><a href="../refundPolicy.html">Pricing & Refund Policy</a></div>
+                        </div>
+                        <div class="ms-2">
+                            <div class="mt-1"><a href="../faq.html">FAQs</a></div>
+                            <div class="mt-1"><a href="../siteMap.html">Sitemap</a></div>
+                            <div class="mt-1"><a href="../forum.html">Discussion Forum</a></div>
+                            <div class="mt-1"><a href="../index.html#bookCounselling">Book Free Counselling</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-1 pt-4">
+                    <div class="headings">Courses</div>
+                    <div class="footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="../physics.html">Physics</a></div>
+                            <div class="mt-1"><a href="../bio.html">Bio </a></div>
+                            <div class="mt-1"><a href="../math.html">Maths</a></div>
+                            <div class="mt-1"><a href="../chemistry.html">Chemistry</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 pt-3">
+                    <div class="headings textDecorationNone">Subscribe to get our Newsletter</div>
+                    <div>
+                        <input type="email" placeholder="Your Email">
+                        <button class="subscribeBtn">Subscribe</button>
+                    </div>
+                    <h4 class="mt-3">Install Our App</h4>
+                    <div class="d-flex">
+                        <a href="#"><img src="../img/googlePlay.png" class="downloadImg" alt=""></a>
+                        <a href="#"><img src="../img/appleStore.png" class="ms-1 downloadImg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerTag mt-5 pb-3 text-light text-center">© Copyright 2022 -(Company Name) Pvt. Ltd.</div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="toTop me-4">
+                <a href="#toGetTop">
+                    <div class="backtoTop mx-auto"><i class="fa-solid fa-angle-up fa-3x"></i></div>
+                </a>
+                <div class="text-light mt-1">Back to top</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap javascript v5.0.2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Cdn link v3.6.0 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Carousel Cdn link v2.3.4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jQueryCounter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- js file -->
+    <script src="../js/script.js"></script>
+    <script src="./js/sideNavbar.js"></script>
+    <script src="./js/leaderBoardCarousel.js"></script>
+    <script src="../js/pricing.js"></script>
+</body>
+
+</html>

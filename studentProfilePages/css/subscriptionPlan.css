@@ -1,0 +1,201 @@
+.subscriptionBox {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.subscriptionBox .innerBox {
+    background: linear-gradient(133.27deg, #FFBB00 -8.35%, #E5AA08 123.66%);
+    border-radius: 12px;
+}
+
+.subscriptionBox .innerBox .box {
+    border: 2px dashed #FFFFFF;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscriptionBox .innerBox h1 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subscriptionBox .innerBox h2,
+.subscriptionBox .innerBox a {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.subscriptionBox .innerBox h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.whiteCircle {
+    background: #F5F5F5;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    width: 142px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: blink 0.8s ease-in infinite;
+}
+
+.whiteCircle .innerCircle {
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background: #F5F5F5;
+    border: 8px solid #FFBB00;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscriptionBox .heading {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    opacity: 0.7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.subscriptionBox .text,
+.subscriptionBox .questionText {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.subscriptionBox .question {
+    padding: 30px 150px;
+}
+
+@media screen and (max-width:1100px) {
+    .subscriptionBox .innerBox h1 {
+        font-size: 26px;
+    }
+
+    .subscriptionBox .innerBox h2,
+    .subscriptionBox .innerBox a {
+        font-size: 22px;
+    }
+
+    .subscriptionBox .innerBox h3 {
+        font-size: 20px;
+    }
+
+    .whiteCircle {
+        width: 122px;
+        height: 122px;
+    }
+
+    .whiteCircle .innerCircle {
+        width: 92px;
+        height: 92px;
+    }
+
+    .subscriptionBox .heading {
+        font-size: 26px;
+    }
+
+    .subscriptionBox .text,
+    .subscriptionBox .questionText {
+        font-size: 18px;
+    }
+
+    .subscriptionBox .question {
+        padding: 30px 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .subscriptionBox .innerBox h1 {
+        font-size: 24px;
+    }
+
+    .subscriptionBox .innerBox h2,
+    .subscriptionBox .innerBox a {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .subscriptionBox .innerBox h3 {
+        font-size: 18px;
+    }
+
+    .repurchaseBtn {
+        width: 40%;
+    }
+
+    .whiteCircle {
+        width: 102px;
+        height: 102px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .whiteCircle .innerCircle {
+        width: 82px;
+        height: 82px;
+    }
+
+    .subscriptionBox .heading {
+        font-size: 22px;
+    }
+
+    .subscriptionBox .text,
+    .subscriptionBox .questionText {
+        font-size: 18px;
+    }
+
+    .subscriptionBox .question {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .subscriptionBox .innerBox h1 {
+        font-size: 24px;
+    }
+
+    .subscriptionBox .innerBox h2,
+    .subscriptionBox .innerBox a {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .subscriptionBox .innerBox h3 {
+        font-size: 16px;
+    }
+
+    .repurchaseBtn {
+        width: 40%;
+    }
+
+    .subscriptionBox .heading {
+        font-size: 18px;
+    }
+
+    .subscriptionBox .text,
+    .subscriptionBox .questionText {
+        font-size: 14px;
+    }
+
+    .subscriptionBox .question {
+        padding: 10px 10px;
+    }
+}

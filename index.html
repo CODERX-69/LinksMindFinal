@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN link v5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link v6.1.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons cdn link v1.8.2-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.2/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Links Mind</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light" id="toGetTop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./img/darkLogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studyMaterial.html">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forum.html">Discussion Forum</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search here...">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <li class="nav-item d-flex ms-2 justify-content-between">
+                        <a class="nav-link" href="cart.html"><img src="./img/cartIcon.png" alt=""></a>
+                        <a class="nav-link" href="login.html"><button class="loginBtn px-4 py-1">Login</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="homeSection">
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-md-6 pb-5">
+                    <h1 class="fo-54 fw-700"><span class="yellowColorText">Studying</span> Online is now much easier
+                    </h1>
+                    <div class="fo-24 fw-400">Linksmind is an interesting platform that will teach you in more an
+                        interactive way</div>
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="playBtn"><i class="fa-solid fa-play yellowColorText fa-2x"></i></div>
+                        </a>
+                        <div class="fo-24 fw-400 ms-3">Watch how it works</div>
+                    </div>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <img src="./img/homeSectionImg.png" class="homeSectionImg d-block mx-auto" alt="">
+                    <div class="userExperienceClass">
+                        <div class="d-flex">
+                            <img src="./img/userExperienceClassImg.png" alt="">
+                            <div class="greenDot"></div>
+                            <div class="mt-3 ms-4">
+                                <h4>User Experience Class</h4>
+                                <h5>Today at 12.00 PM</h5>
+                                <button class="userExperienceBtn">Join Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="homePagePolygons d-flex justify-content-center">
+            <a href="#homePageCardSection" class="textDecorationNone">
+                <div class="downArrowHomePage d-flex justify-content-center align-items-center"><i
+                        class="fa-solid fa-arrow-down yellowColorText fa-2x"></i></div>
+            </a>
+        </div>
+        <!-- <img src="./img/homePagePolygons.png" alt=""> -->
+
+    </div>
+    <section class="px-md-5" id="homePageCardSection">
+        <div class="row mx-2">
+            <div class="col-md-4 px-md-4 px-1 col-6">
+                <div class="homePagecard">
+                    <img src="./img/liveClass.png" class="w-100" alt="">
+                    <div class="fo-24 fw-400 mt-1 ps-2">Daily live classes</div>
+                    <p class="fo-20 fw-400 mt-2 ps-2 pb-3 ">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Blandit in at viverra.</p>
+                </div>
+            </div>
+            <div class="col-md-4 px-md-4 px-1 col-6">
+                <div class="homePagecard">
+                    <img src="./img/practiceRevise.png" class="w-100" alt="">
+                    <div class="fo-24 fw-400 mt-1 ps-2">Practice and revise</div>
+                    <p class="fo-20 fw-400 mt-2 ps-2 pb-3 ">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Blandit in at viverra.</p>
+                </div>
+            </div>
+            <div class="col-md-4 px-md-4 px-1 col-6">
+                <div class="homePagecard">
+                    <img src="./img/learnAnything.png" class="w-100" alt="">
+                    <div class="fo-24 fw-400 mt-1 ps-2">Learn anytime, anywhere</div>
+                    <p class="fo-20 fw-400 mt-2 ps-2 pb-3 ">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Blandit in at viverra.</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap mt-5 ms-sm-4 mx-2">
+            <div class="dropdown me-3 mb-2">
+                <a class="boardDropdown" href="#" role="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link <i class="fa-solid fa-angle-down ms-3"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="dropdown me-3">
+                <a class="coursesDropdown" href="#" role="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses <i class="fa-solid fa-angle-down ms-3"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="dropdown mb-2">
+                <a class="coursesDropdown" href="#" role="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Class <i class="fa-solid fa-angle-down ms-3"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="d-flex classesSearch ms-auto me-2">
+                <input type="text" class="searchTopicsHere" placeholder="Search topics here...">
+                <div class="searchIcon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class1.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class2.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class3.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class1.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class2.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class3.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class1.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class2.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+            <div class="col-md-4 col-6 mt-md-5 mt-3 ps-md-3 ps-sm-1 classVideo">
+                <div class="div1">Class-1</div>
+                <i class="bi bi-play fa-5x"></i>
+                <img src="./img/class3.png" class="d-block mx-auto" alt="">
+                <p class="text-center">Introduction Of EVS</p>
+            </div>
+        </div>
+        <div class="bestPlcCourse pt-5 pb-5 d-flex justify-content-between align-items-center">
+            <h3>Check out some of our best PLC courses 👇</h3>
+            <a href="#"> <img src="./img/exploreAllBtn.png" class="exploreBtn" alt=""></a>
+        </div>
+        <div class="plcCourses d-flex align-items-center justify-content-around mx-2">
+            <div class="plcCourses-prev" role="button"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="owl-carousel plcCourseCarousel owl-theme">
+                <div class="item plcCard mx-auto">
+                    <img src="./img/plcCourseImg.png" alt="">
+                    <h2 class="fo-18 mt-3 px-3">Complete Course Of Physics</h2>
+                    <div class="pb-3 border-bottom d-flex pt-5 justify-content-between px-3">
+                        <div class="d-flex">
+                            <h6 class="fo-12 fw-400 yellowColorText">4.8</h6>
+                            <i class="fa-solid fa-star yellowColorText"></i>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./img/studentIcon.png" class="studentIcon" alt="">
+                            <h6 class="fo-12 fw-400">25,599 Students</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-2 pb-3 px-3 align-items-center">
+                        <i class=" fa-regular fo-12 fa-clock"></i>
+                        <div class="fo-12 ms-1 fw-400">12 hrs 15 min</div>
+                        <i class="fa-solid ms-3 fo-12 fa-book-bookmark"></i>
+                        <div class="fo-12 ms-1 fw-400">25 Lectures</div>
+                        <i class="fa-solid ms-3 fo-12 fa-signal"></i>
+                        <div class="fo-12 ms-1 fw-400">Pro</div>
+                    </div>
+                </div>
+                <div class="item plcCard mx-auto">
+                    <img src="./img/plcCourseImg.png" alt="">
+                    <h2 class="fo-18 mt-3 px-3">Complete Course Of Physics</h2>
+                    <div class="pb-3 border-bottom d-flex pt-5 justify-content-between px-3">
+                        <div class="d-flex">
+                            <h6 class="fo-12 fw-400 yellowColorText">4.8</h6>
+                            <i class="fa-solid fa-star yellowColorText"></i>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./img/studentIcon.png" class="studentIcon" alt="">
+                            <h6 class="fo-12 fw-400">25,599 Students</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-2 pb-3 px-3 align-items-center">
+                        <i class=" fa-regular fo-12 fa-clock"></i>
+                        <div class="fo-12 ms-1 fw-400">12 hrs 15 min</div>
+                        <i class="fa-solid ms-3 fo-12 fa-book-bookmark"></i>
+                        <div class="fo-12 ms-1 fw-400">25 Lectures</div>
+                        <i class="fa-solid ms-3 fo-12 fa-signal"></i>
+                        <div class="fo-12 ms-1 fw-400">Pro</div>
+                    </div>
+                </div>
+                <div class="item plcCard mx-auto">
+                    <img src="./img/plcCourseImg.png" alt="">
+                    <h2 class="fo-18 mt-3 px-3">Complete Course Of Physics</h2>
+                    <div class="pb-3 border-bottom d-flex pt-5 justify-content-between px-3">
+                        <div class="d-flex">
+                            <h6 class="fo-12 fw-400 yellowColorText">4.8</h6>
+                            <i class="fa-solid fa-star yellowColorText"></i>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./img/studentIcon.png" class="studentIcon" alt="">
+                            <h6 class="fo-12 fw-400">25,599 Students</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-2 pb-3 px-3 align-items-center">
+                        <i class=" fa-regular fo-12 fa-clock"></i>
+                        <div class="fo-12 ms-1 fw-400">12 hrs 15 min</div>
+                        <i class="fa-solid ms-3 fo-12 fa-book-bookmark"></i>
+                        <div class="fo-12 ms-1 fw-400">25 Lectures</div>
+                        <i class="fa-solid ms-3 fo-12 fa-signal"></i>
+                        <div class="fo-12 ms-1 fw-400">Pro</div>
+                    </div>
+                </div>
+                <div class="item plcCard mx-auto">
+                    <img src="./img/plcCourseImg.png" alt="">
+                    <h2 class="fo-18 mt-3 px-3">Complete Course Of Physics</h2>
+                    <div class="pb-3 border-bottom d-flex pt-5 justify-content-between px-3">
+                        <div class="d-flex">
+                            <h6 class="fo-12 fw-400 yellowColorText">4.8</h6>
+                            <i class="fa-solid fa-star yellowColorText"></i>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./img/studentIcon.png" class="studentIcon" alt="">
+                            <h6 class="fo-12 fw-400">25,599 Students</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-2 pb-3 px-3 align-items-center">
+                        <i class=" fa-regular fo-12 fa-clock"></i>
+                        <div class="fo-12 ms-1 fw-400">12 hrs 15 min</div>
+                        <i class="fa-solid ms-3 fo-12 fa-book-bookmark"></i>
+                        <div class="fo-12 ms-1 fw-400">25 Lectures</div>
+                        <i class="fa-solid ms-3 fo-12 fa-signal"></i>
+                        <div class="fo-12 ms-1 fw-400">Pro</div>
+                    </div>
+                </div>
+            </div>
+            <div class="plcCourses-next" role="button"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+    </section>
+
+    <section id="whyUs" class="mx-md-5 mx-2 px-2 px-md-5 mt-3">
+        <div class="row">
+            <div class="col-md-6 col-12 pt-5">
+                <div class="whyUsVideoSection">
+                    <!-- <img src="./img/whyUsImg.png" class="whyUsImg" alt=""> -->
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="fo-30 fw-600 mt-4">Why Choose Linksmind courses?🧐</div>
+                <div class="whyUsContent d-flex align-items-center mt-5">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">High Quality Educational content</div>
+                </div>
+                <div class="whyUsContent d-flex align-items-center mt-3">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">Track Progress</div>
+                </div>
+                <div class="whyUsContent d-flex align-items-center mt-3">
+                    <div class="tick d-flex justify-content-center align-items-center">
+                        <div class="tick2 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check text-light"></i>
+                        </div>
+                    </div>
+                    <div class="ms-md-5 ms-2 whyUsContentText">Get Shareable Certificates</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bookSession mt-4" id="bookCounselling">
+        <div class="topHr ms-5"></div>
+        <h2 class="text-light text-center mt-3">Book a free online session.</h2>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#bookSessionModal"> <img src="./img/bookBtn.png"
+                class="d-block mx-auto bookBtn" alt=""></a>
+        <div class="topHr ms-auto me-5 mt-3"></div>
+
+        <!-- modal 1 -->
+        <div class="modal" tabindex="-1" id="bookSessionModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Select Slot</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Set a goal to soomthly complete your
+                            course. you can always change it later.</p>
+                        <input type="date" placeholder="Select Date">
+                        <div class="mt-4">
+                            <div class="d-flex align-items-center">
+                                <div class="dropdown">
+                                    <button class="btn" type="button" id="dropdowntime1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        12:30 pm
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdowntime1">
+                                        <li><a class="dropdown-item" href="#">12:00 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:15 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:30 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:45 am</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fo-20 ms-3">to</div>
+                                <div class="dropdown ms-3">
+                                    <button class="btn" type="button" id="dropdowntime2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        1:00 pm
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdowntime2">
+                                        <li><a class="dropdown-item" href="#">12:00 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:15 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:30 am</a></li>
+                                        <li><a class="dropdown-item" href="#">12:45 am</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="" class="textDecorationNone" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                data-bs-target="#bookSessionModal2">
+                                <div class="text-end text-dark nextArrow">next
+                                    <img src="./img/nextArrow.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal 2 -->
+        <div class="modal" tabindex="-1" id="bookSessionModal2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Select Slot</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Set a goal to soomthly complete your
+                            course. you can always change it later.</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-4">
+                                <h5 class="text-center">Tuesday 27 july, 2000</h5>
+                                <div class="mt-3 sessionTime">
+                                    <div class="dateTime">Tuesday <br>
+                                        27 july, 2000</div>
+                                    <h6 class="mt-3">11:30 am - 1:00 pm</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <button class="editScheduleBtn ms-2" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                data-bs-target="#bookSessionModal">Edit schedule</button>
+                            <button class="scheduleBtn ms-3" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                data-bs-target="#bookSessionModal3">Schedule looks great!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal 3 -->
+        <div class="modal" tabindex="-1" id="bookSessionModal3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./img/allSetImg.png" class="d-block mx-auto" alt="">
+                        <h2 class="mt-3 text-center pb-3">All set !, you will notified through
+                            notification</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="whatIsLinksMind mt-4">
+        <div class="d-flex">
+            <div class="yellowHr"></div>
+            <h1 class="ms-3">What is <span class="yellowColorText">Linksmind?</span> </h1>
+        </div>
+        <p class="px-md-5 mx-md-5 px-2 text-center">Linksmind is a platform that allows educators to create online
+            classes
+            whereby they
+            can store
+            the course
+            materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide
+            students with feedback all in one place.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 forInstructors">
+                    <img src="./img/forInstructor.png" class="d-block mx-auto" alt="">
+                    <h2 class="">FOR INSTRUCTORS</h2>
+                    <button>Start a class today</button>
+                </div>
+                <div class="col-6 forInstructors">
+                    <img src="./img/forStudents.png" class="d-block mx-auto" alt="">
+                    <h2 class="">FOR STUDENTS</h2>
+                    <button>Start Learning</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="ourFeatures mt-5">
+        <div class="d-flex justify-content-end">
+            <h1 class="text-center me-lg-5 pe-lg-5">Our <span class="yellowColorText">Features</span></h1>
+            <div class="yellowHr"></div>
+        </div>
+        <p class="text-center px-2 mt-2">This very extraordinary feature, can make learning activities more efficient
+            </div>
+
+        <div class="row">
+            <div class="col-md-6 col-12 mt-3">
+                <img src="./img/feature1.png" class="featuresImg" alt="">
+            </div>
+            <div class="col-md-6 col-12 mt-3 d-flex align-items-center">
+                <div>
+                    <h2 class="px-sm-5 px-2">One-on-One <br> <span class="yellowColorText">Discussions</span></h2>
+                    <div class="featuresContent px-sm-5 px-2">Teachers and teacher assistants can talk with students
+                        privately
+                        without
+                        leaving the Zoom environment.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row featuresRow">
+            <div class="col-md-6 col-12 mt-3 mt-md-0 d-flex align-items-center">
+                <div>
+                    <h2 class="px-sm-5 ms-sm-4 px-2"><span class="yellowColorText">Tools</span> For Teachers <br> And
+                        Learners
+                    </h2>
+                    <div class="featuresContent ms-sm-4 px-sm-5 px-2">Class has a dynamic set of teaching tools built to
+                        be deployed and used during class.
+                        Teachers can handout assignments in real-time for students to complete and submit.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <img src="./img/feature2.png" class="featuresImg" alt="">
+            </div>
+        </div>
+        <div class="row featuresRow">
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <img src="./img/feature3.png" class="featuresImg" alt="">
+            </div>
+            <div class="col-md-6 col-12 mt-3 d-flex align-items-center">
+                <div>
+                    <h2 class="px-sm-5 px-2">Assessments,<br> <span class="yellowColorText">Avhhyas</span>, Tests</h2>
+                    <div class="featuresContent px-sm-5 px-2">Easily launch live assignments, quizzes, and tests.
+                        Student results are automatically entered in the online gradebook.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row featuresRow">
+            <div class="col-md-6 col-12 mt-3 mt-md-0 d-flex align-items-center">
+                <div>
+                    <h2 class="px-sm-5 ms-sm-4 px-2"><span class="yellowColorText">Class Management</span><br> Tools for
+                        Educators
+                    </h2>
+                    <div class="featuresContent ms-sm-4 px-sm-5 px-2">Class provides tools to help run and manage the
+                        class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and
+                        grade tests and quizzes in real-time.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <img src="./img/feature4.png" class="featuresImg" alt="">
+            </div>
+        </div>
+        <div class="row featuresRow">
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <img src="./img/feature5.png" class="featuresImg" alt="">
+            </div>
+            <div class="col-md-6 col-12 mt-3 d-flex align-items-center">
+                <div>
+                    <h2 class="px-sm-5 px-2"><span class="yellowColorText">Study</span> Materials</h2>
+                    <div class="featuresContent px-sm-5 px-2">You can download study material directly after the end of
+                        daily classes.</div>
+                </div>
+            </div>
+        </div>
+        <div class="createCourse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 mt-3 d-flex align-items-center">
+                        <img src="./img/createCourseImg.png" class="createCourseImg1" alt="">
+                    </div>
+                    <div class="col-md-6 col-8">
+                        <div class="createCourseHeading text-light mt-md-5 pt-md-5">Create a change through the things
+                            you
+                            already
+                            know
+                        </div>
+                        <div class="createCourseContent mt-3 text-light">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit. Blandit
+                            in at
+                            viverra. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Blandit in at viverra.</div>
+                        <img src="./img/createCoursBtn.png" class="d-block mx-auto createCourseBtn" alt="">
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="d-flex mt-5 pt-5">
+                            <img src="./img/arrow.png" class="arrowImg" alt="">
+                            <img src="./img/createcourse.png" class="ms-4 createcourseImg2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonial mt-5 pt-5">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-start">
+                    <div class="mt-2 me-3 testimonialHr"></div>
+                    <h6>Testimonial</h6>
+                </div>
+                <div class="container mx-md-5 px-md-5 px-3">
+                    <h2>What They Say?</h2>
+                    <h4 class="mt-4">Linksmind has got more than 100k positive ratings from our users around the world.
+                    </h4>
+                    <h4 class="mt-4">Some of the students and teachers were greatly helped by the Skilline.</h4>
+                    <h4 class="mt-4">Are you too? Please give your assessment</h4>
+                    <a href="#" class="textDecorationNone">
+                        <div class="d-flex AssesmentBtn align-items-center mt-4 ps-5">
+                            Write your assessment
+                            <div class="InnerAssesmentBtn d-flex justify-content-center align-items-center"><i
+                                    class="fa-solid fa-arrow-right-long"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/testimonialImg.png" height="70%" class="ms-3 mt-3" alt="">
+                <div class="testimonialReview p-md-5 p-3">
+                    <p class="border-start ps-3">"Thank you so much for your help. It's exactly what I've been
+                        looking
+                        for. You won't regret
+                        it. It really saves me time and effort. Skilline is exactly what our business has been
+                        lacking."</p>
+
+                    <div class="d-flex justify-content-between align-items-center px-3">
+                        <h5>Lisa Joseph</h5>
+                        <div>
+                            <i class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i><i
+                                class="fa-solid fa-star yellowColorText"></i>
+                            <div class="testimonialReviews">12 reviews</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <div class="studentSatisfaction">
+        <div class="whiteLine"></div>
+        <div class="studentSatisfactionHeading">Student Satisfaction</div>
+        <div class="d-flex justify-content-around circles">
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">2</span>k+</h3>
+                        <h4>Students</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">9.50</span></h3>
+                        <h4>Avg CGPA</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="circle">
+                <div class="circle2">
+                    <div class="text-center">
+                        <h3><span class="counter">100</span>%</h3>
+                        <h4>Guarantee</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="blogSection" class="mt-5">
+        <h1 class="text-center">Latest Blogs & Discussion Forum</h1>
+        <h2 class="text-center">See the developments that have occurred to Skillines in the world</h2>
+        <div class="row mx-3">
+            <div class="col-md-6 col-12 mt-md-5">
+                <img src="./img/blog1.png" class="blogImg" alt="">
+                <div class="yellowTag">Science</div>
+                <h3 class="mt-2">Class adds $30 million to its balance sheet for <br> a Zoom-friendly edtech solution
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac scelerisque massa velit tellus
+                    cursus. Quis id tristique.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+            <div class="col-md-6 mt-md-5">
+                <div class="row">
+                    <div class="col-md-5 mt-3 mt-md-0">
+                        <img src="./img/blog2.png" class="blogImg" alt="">
+                        <div class="yellowTag2">Chemistry</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h3>
+                        <p>Class Technologies Inc., the company that created Class,...</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-5"><img src="./img/blog3.png" class="blogImg" alt="">
+                        <div class="yellowTag2">EVS</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Zoom’s earliest investors are betting millions on a better Zoom for schools</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi quam in consequat.</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-5"><img src="./img/blog4.png" class="blogImg" alt="">
+                        <div class="yellowTag2">NEWS</div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mauris quam lectus.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="forum.html"> <img src="./img/exploreAllBtn.png" class="d-block mt-5 mx-auto" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="border-end col-lg-3 pe-2 pt-2">
+                    <img src="./img/darkLogo.png" class="footerLogo" alt="">
+                    <h2 class="text-light mt-1">Connecting Beautiful Minds</h2>
+                    <h3 class="text-light mt-2">LINKSMIND EDUCORP PVT LTD</h3>
+                    <h3 class="text-light">-Unit of EDURESEARCH LINKSMIND LLP</h3>
+                    <div class="d-flex align-items-center text-light mt-3">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div class="ms-3 addressTelMail">Dummy Address</div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="ms-3 addressTelMail"><a href="tel:(+91) 9876543210">(+91) 9876543210</a></div>
+                    </div>
+                    <div class="d-flex align-items-center text-light mt-2">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="ms-3 addressTelMail"><a href="mailto:abc@mail.com">abc@mail.com</a></div>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <a href="#" class="ms-2"><img src="./img/footerYoutube.png" class="footerYoutube" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerLinkedIn.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerInsta.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerTwitter.png" alt=""></a>
+                        <a href="#" class="ms-2"><img src="./img/footerFb.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 ps-md-5 pt-4">
+                    <div class="headings">Quick Links</div>
+                    <div class="d-flex footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="aboutUs.html">About Us</a></div>
+                            <div class="mt-1"><a href="contact.html">Contact </a></div>
+                            <div class="mt-1"><a href="privacyPolicy.html">Privacy Policy</a></div>
+                            <div class="mt-1"><a href="termsCondition.html">Terms & Condition</a></div>
+                            <div class="mt-1"><a href="refundPolicy.html">Pricing & Refund Policy</a></div>
+                        </div>
+                        <div class="ms-2">
+                            <div class="mt-1"><a href="faq.html">FAQs</a></div>
+                            <div class="mt-1"><a href="siteMap.html">Sitemap</a></div>
+                            <div class="mt-1"><a href="forum.html">Discussion Forum</a></div>
+                            <div class="mt-1"><a href="#bookCounselling">Book Free Counselling</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-1 pt-4">
+                    <div class="headings">Courses</div>
+                    <div class="footerLinks">
+                        <div>
+                            <div class="mt-1"><a href="physics.html">Physics</a></div>
+                            <div class="mt-1"><a href="bio.html">Bio </a></div>
+                            <div class="mt-1"><a href="math.html">Maths</a></div>
+                            <div class="mt-1"><a href="chemistry.html">Chemistry</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light col-lg-4 pt-3">
+                    <div class="headings textDecorationNone">Subscribe to get our Newsletter</div>
+                    <div>
+                        <input type="email" placeholder="Your Email">
+                        <button class="subscribeBtn">Subscribe</button>
+                    </div>
+                    <h4 class="mt-3">Install Our App</h4>
+                    <div class="d-flex">
+                        <a href="#"><img src="./img/googlePlay.png" class="downloadImg" alt=""></a>
+                        <a href="#"><img src="./img/appleStore.png" class="ms-1 downloadImg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerTag mt-5 pb-3 text-light text-center">© Copyright 2022 -(Company Name) Pvt. Ltd.</div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="toTop me-4">
+                <a href="#toGetTop">
+                    <div class="backtoTop mx-auto"><i class="fa-solid fa-angle-up fa-3x"></i></div>
+                </a>
+                <div class="text-light mt-1">Back to top</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap javascript v5.0.2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Cdn link v3.6.0 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Carousel Cdn link v2.3.4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jQueryCounter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- js file -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

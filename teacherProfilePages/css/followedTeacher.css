@@ -1,0 +1,150 @@
+.followTeacher {
+    width: 100%;
+    height: 98px;
+    background: linear-gradient(180deg, rgba(255, 187, 0, 0.9) 0%, rgba(184, 138, 14, 0.9) 100%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15), inset 3px 2px 9px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+.followTeacher h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.followTeacher .teacherImg {
+    border-radius: 50%;
+}
+
+.followTeacher h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.followTeacher .unfollowBtn {
+    background: #F5F5F5;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width:500px) {
+    .followTeacher h2 {
+        font-size: 14px;
+    }
+
+    .followTeacher h3 {
+        font-size: 12px;
+    }
+
+    .followTeacher .teacherImg {
+        width: 50px !important;
+    }
+
+    .followTeacher .unfollowBtn {
+        font-size: 12px;
+    }
+
+    .followTeacher .followTeacherIcon {
+        width: 15px;
+    }
+}
+
+/* ṛeview courses css */
+
+.submitHeading {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.submitContent {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.writeReview label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.writeReview input[type=text],
+.writeReview input[type=email],
+.writeReview textarea {
+    width: 70%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.writeReview textarea {
+    height: 160px;
+}
+
+.writeReview .submitBtn {
+    background: #FFBB00;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.courseiFrame {
+    height: 358px;
+}
+
+.editReview,
+.editReview:hover {
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFBB00;
+}
+
+@media screen and (max-width:500px) {
+    .writeReviewBtn {
+        width: 75%;
+    }
+
+    .submitHeading {
+        font-size: 20px;
+    }
+
+    .submitContent {
+        font-size: 14px;
+    }
+
+    .writeReview label {
+        font-size: 16px;
+    }
+
+    .writeReview input[type=text],
+    .writeReview input[type=email],
+    .writeReview textarea {
+        width: 100%;
+    }
+
+    .writeReview .submitBtn {
+        font-size: 18px;
+    }
+
+    .courseiFrame {
+        height: 258px;
+    }
+
+    .editReview,
+    .editReview:hover {
+        font-size: 18px;
+    }
+}

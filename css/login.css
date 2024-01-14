@@ -1,0 +1,242 @@
+.loginImg {
+    height: 700px;
+    width: 100%;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.row {
+    padding: 15px 10px 15px 10px;
+    --bs-gutter-x: 0rem;
+}
+
+.rightSide {
+    max-width: 554px;
+    width: 100%;
+}
+
+.square {
+    width: 63px;
+    height: 63px;
+    transform: rotate(45deg);
+    background-color: transparent;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    z-index: -5;
+}
+
+.logoText {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: -50px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 25px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.7;
+
+}
+
+.groupInput {
+    max-width: 554px;
+    width: 100%;
+    background-color: #fff;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+    width: 100%;
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+input[type=email]:focus,
+input[type=password] {
+    outline: none;
+    border: none;
+}
+
+.rememberMe {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.forgotPass {
+    font-weight: 600;
+    font-size: 19.4286px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.forgotPass:hover {
+    color: #777777;
+}
+
+.loginBtnLoginPage {
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.greenText {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #77AF44;
+}
+
+.greyHr {
+    height: 1px;
+    width: 10%;
+    background-color: rgba(68, 68, 68, 0.5);
+}
+
+.dontHaveAcc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #97ADB6;
+}
+
+.codeSent {
+    font-weight: 600;
+    font-size: 19.4286px;
+    color: #111111;
+    opacity: 0.7;
+}
+
+input[type=number] {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.goBackArrow {
+    margin-left: -50px !important;
+}
+
+@media screen and (max-width:1128px) {
+    .rightSide {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .rightSide {
+        width: 100%;
+    }
+
+    .goBackArrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .loginBtnLoginPage {
+        width: 100%;
+    }
+
+    .loginImg {
+        height: 100%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 18px;
+
+    }
+
+    .rememberMe {
+        font-size: 12px;
+    }
+
+    .forgotPass {
+        font-size: 14.4286px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .greenText {
+        font-size: 18px;
+    }
+
+    .dontHaveAcc {
+        font-size: 18px;
+    }
+
+    input[type=number] {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.yellowBtns {
+    width: 256px;
+    height: 64px;
+    background: #FFBB00;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}

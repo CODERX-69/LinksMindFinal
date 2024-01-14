@@ -1,0 +1,122 @@
+.scholarShipCard {
+    width: 50%;
+    height: 255px;
+    background: linear-gradient(111.13deg, #FFBB00 0%, #B88A0E 57.57%);
+    border-radius: 10px;
+    position: relative;
+    margin-top: -120px;
+}
+
+.scholarShipPointsBgLine {
+    width: 100%;
+    height: 8px;
+    background: #F5F5F5;
+}
+
+.scholarShipCard h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.scholarShipCard h3,
+.scholarShipCard a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.scholarShipCard a {
+    position: absolute;
+    bottom: 10px;
+    left: 33%;
+}
+
+#workModal .modal-title {
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+#workModal .modal-body {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.historyHeading {
+    background: #F5F5F5;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: fit-content;
+}
+
+.creditContainer {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.35);
+    padding-bottom: 25px;
+}
+
+.creditContainer h2 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.creditContainer h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.scholarshipViewAll,
+.scholarshipViewAll:hover {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:768px) {
+    .scholarShipCard {
+        width: 75%;
+        height: 205px;
+        margin-top: -50px;
+    }
+
+    .scholarShipCard h2 {
+        font-size: 16px;
+    }
+
+    .scholarShipCard h3,
+    .scholarShipCard a {
+        font-size: 13px;
+    }
+
+    .sim {
+        width: 40px;
+    }
+
+    .scholarShipCard a {
+        left: 25%;
+    }
+
+    #workModal .modal-title {
+        font-size: 18px;
+    }
+
+    #workModal .modal-body {
+        font-size: 14px;
+    }
+
+}

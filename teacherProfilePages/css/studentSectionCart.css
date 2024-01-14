@@ -1,0 +1,111 @@
+label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.address input[type=text],
+.address input[type=number],
+.address input[type=email],
+.address .stateDropdown {
+    height: 40px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+
+.address input[type=text]:focus,
+.address input[type=number]:focus,
+.address input[type=email]:focus,
+.address #address:focus {
+    outline: none;
+}
+
+.address .stateDropdown:focus {
+    box-shadow: none;
+}
+
+.address #address {
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+
+.leftSide {
+    background: #FFFFFF;
+    border: 1px solid #FFBB00;
+    border-radius: 8px;
+    padding-top: 20px;
+}
+
+.deleteIconTop {
+    width: 25px;
+    height: 25px;
+}
+
+.leftSide h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.leftSide h2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.leftSide .yellowText {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFBB00;
+}
+
+.leftSide h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    opacity: 0.6;
+}
+
+.leftSide h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.leftSide .smallDeleteIcon {
+    width: 15px;
+    height: 16px;
+}
+
+.leftSide input[type=text] {
+    width: 200px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+@media screen and (max-width:992px) {
+    .leftSide input[type=text] {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .leftSide .yellowText {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+}

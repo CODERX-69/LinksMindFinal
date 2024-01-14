@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN link v5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link v6.1.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons cdn link v1.8.2-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.2/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/accountDetail.css">
+    <link rel="stylesheet" href="./css1/style.css">
+    <link rel="stylesheet" href="./css1/main.css">
+    <link rel="stylesheet" href="./css1/profile.css">
+    <link rel="stylesheet" href="./css1/courses.css">
+    <link rel="stylesheet" href="./css1/fillDetails.css">
+    <link rel="stylesheet" href="./css1/purchasedCourses.css">
+    <link rel="stylesheet" href="./css1/profileInReviewMode.css">
+    <link rel="stylesheet" href="./css1/trainingProgramme1.css">
+    
+    <title>Links Mind</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light" id="toGetTop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="img/darkLogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../studyMaterial.html">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../forum.html">Discussion Forum</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search here...">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <li class="nav-item d-flex ms-2 justify-content-between">
+                        <a class="nav-link" href="../cart.html"><img src="img/cartIcon.png" alt=""></a>
+                        <a class="nav-link" href="../login.html"><button class="loginBtn px-4 py-1">User</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="toggle">
+        <i class="fa-solid fa-bars close"></i>
+        <i class="fa-solid fa-bars-staggered open"></i>
+    </div>
+    <div class="d-flex">
+        <div class="navigation active">
+            <div class="scholarShipPointsBox">
+                <div>
+                    <div class="pointsCircle">
+                        <div class="pointsCircle2">
+                            <h1>900</h1>
+                            <h2>Points</h2>
+                        </div>
+                    </div>
+                    <span class="title text-light">Scholarship Points</span>
+                </div>
+            </div>
+
+            <ul>
+                <li class="list active">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><img src="img/dashboardIcon.png" alt=""></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+
+                    <a href="profileStats.html">
+                        <span class="icon"><img src="img/stats.png" alt=""></span>
+                        <span class="title">Stats</span>
+                    </a>
+                </li>
+                <li class="list ">
+
+                    <a href="createCourse.html">
+                        <span class="icon"><img src="img/createcourse.png" alt=""></span>
+                        <span class="title">Create Courses</span>
+                    </a>
+                </li>
+                <li class="list ">
+
+                    <a href="assignedCourses.html">
+                        <span class="icon"><img src="img/assesmentsIcon.png" alt=""></span>
+                        <span class="title">Assigned Courses</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileAssesments.html">
+                        <span class="icon"><img src="img/assesmentsIcon.png" alt=""></span>
+                        <span class="title">Assesments</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileDetails.html">
+                        <span class="icon"><img src="img/accountDetailsIcon.png" alt=""></span>
+                        <span class="title">Account Details</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="creditPoints.html">
+                        <span class="icon"><img src="img/scholarshipPointsIcon.png" alt=""></span>
+                        <span class="title">Credited Points</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="profileEditCourse.html">
+                        <span class="icon"><img src="img/reshuffleCoursesIcon.png" alt=""></span>
+                        <span class="title">Edit Courses</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="studentProfile.html ">
+                        <span class="icon"><img src="img/followedTeacherIcon.png" alt=""></span>
+                        <span class="title">Students</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="profileReportCard.html ">
+                        <span class="icon"><img src="img/studentReportCardIcon.png" alt=""></span>
+                        <span class="title">Report Card</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="recordedVideo.html">
+                        <span class="icon"><img src="img/recordedVideosIcon.png" alt=""></span>
+                        <span class="title">Recorded Videos</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="coupons.html ">
+                        <span class="icon"><img src="img/couponsIcon.png" alt=""></span>
+                        <span class="title">Coupons</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="jobNotification.html">
+                        <span class="icon"><img src="img/jobnotification.png" alt=""></span>
+                        <span class="title">Job Notification</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="createBlogs.html">
+                        <span class="icon"><img src="img/createblog.png" alt=""></span>
+                        <span class="title">Create Blogs</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="reshuffleCourse.html">
+                        <span class="icon"><img src="img/reshuffleCoursesIcon.png" alt=""></span>
+                        <span class="title">Reshuffle Courses</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="revenueStats.html">
+                        <span class="icon"><img src="img/revenue.png" alt=""></span>
+                        <span class="title">Revenue Stats</span>
+                    </a>
+                </li>
+
+
+
+            </ul>
+
+            <div class="supportSection ps-4">
+                <h1 class="pt-5">Support 24/7</h1>
+                <h2>Contacts us anytime</h2>
+                <a href="support.html"><button class="startBtn">Start</button></a>
+                <img src="./img/supportImg.png" alt="">
+            </div>
+
+            <a href="#" class="text-decoration-none"><button class="logOutBtn mt-5"><img src="./img/logOutIcon.png"
+                        alt=""> Logout</button></a>
+        </div>
+
+        <div class="content active py-3 px-sm-4 px-2">
+            <div class="d-flex flex-wrap align-items-center mt-3">
+                <div class="contentSearchBar me-4 d-flex align-items-center">
+                    <img src="./img/searchIcon.png" class="ms-4" alt="">
+                    <input type="text" class="ms-3" placeholder="Search...">
+                </div>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#scheduleClass2"
+                    class=" rateBtn text-decoration-none me-sm-4 me-2">
+                    <div class="showAttendanceBtn">Show Certificate</div>
+                </a>
+                <a href="#" class="text-decoration-none me-sm-4 me-2" data-bs-toggle="modal"
+                    data-bs-target="#scheduleClassModalx">
+                    <div class="showAttendanceBtn">Show Attendance</div>
+                </a>
+
+                <a href="#" class="text-decoration-none ms-auto" data-bs-toggle="modal"
+                    data-bs-target="#emptyNotification">
+                    <div class="bellBtn"><img src="img/bellIcon.png" alt=""></div>
+                </a>
+                <!-- Auditory modal  -->
+                <div class="modal" tabindex="-1" id="auditoryModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content modal-content1">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="keepLearningHeading">Keep Learnig new stuff <img src="img/hourglass.png"
+                                        alt=""></div>
+                                <div class="upgradelearning mt-3">To Upgrade Your Learning Style & IQ Level, Take A Test
+                                    Again
+                                </div>
+                                <div class="d-flex justify-content-center mt-5">
+                                    <button class="buyBtn px-3 me-3">Start Test</button>
+                                    <button class="sampeBtn px-3">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auditory modal ends-->
+
+                <!-- Notification Modals -->
+                <!--  Notification Modal 1 -->
+                <div class="modal" tabindex="-1" id="emptyNotification">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="heading text-center mt-5">No New Notification Yet</div>
+                                <img src="img/notification.png" class="d-block mx-auto mb-5 notificationBell" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Notification Modal 1 ends -->
+                <!-- Notification Modals ends -->
+            </div>
+            <!-- <div class="leaderBoardBox mt-4">
+                <h2>Leaderboard</h2>
+                <div
+                    class="owl-carousel leaderBoardCarousel owl-theme d-flex justify-content-between align-items-center">
+                    <div class="leaderBoardCarousel-prev" role="button"><i
+                            class="fa-solid fa-angle-left text-muted"></i>
+                    </div>
+                    <div class="item">
+                        <div class="yellowCard d-flex">
+                            <img src="./img/ritikVerma.png" alt="">
+                            <div>
+                                <h3>Ritik Verma</h3>
+                                <h4>7th Class</h4>
+                            </div>
+                            <div>
+                                <div class="outerCircle">
+                                    <div class="innerCircle">
+                                        <h5>20</h5>
+                                        <h6>%</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderBoardCarousel-prev" role="button"><i
+                            class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+                </div>
+            </div> -->
+            <div class="d-flex align-items-center mt-3 justify-content-between">
+                <div>
+                    <div class="upcomingHeading">Upcoming One on One Classes</div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="contentFilter me-3" data-bs-toggle="modal" data-bs-target="#oneOnOneFilterModal"
+                        role="button">
+                        <img src="img/filterIcon.png" alt="">
+                    </div>
+                    <img src="./img/viewAllBtn.png" class="viewAllBtn" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 justify-content-between">
+                <div>
+                    <div class="upcomingHeading">Upcoming Doubt Session Classes</div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="contentFilter me-3" data-bs-toggle="modal" data-bs-target="#otherFilterModal"
+                        role="button">
+                        <img src="img/filterIcon.png" alt="">
+                    </div>
+                    <img src="./img/viewAllBtn.png" class="viewAllBtn" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 justify-content-between">
+                <div>
+                    <div class="upcomingHeading">Your unfinished video courses</div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="contentFilter me-3" data-bs-toggle="modal" data-bs-target="#otherFilterModal"
+                        role="button">
+                        <img src="img/filterIcon.png" alt="">
+                    </div>
+                    <img src="img/viewAllBtn.png" class="viewAllBtn" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="profilePageVideo mt-3"></iframe>
+                    <p class="text-center mt-2 profilePageVideoTitle">Introduction Of EVS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- filter modal 1 -->
+    <div class="modal" tabindex="-1" id="oneOnOneFilterModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="./img/filter.png" alt="">
+                    <h5 class="modal-title filterHeading">Filter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="allAccordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Board
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices me-2 mt-2">State Board (90)</div>
+                                            <div class="choices me-2 mt-2">CBSE (167)</div>
+                                            <div class="choices me-2 mt-2">ICSE (456)</div> <br>
+                                            <div class="choices me-2 mt-2">M.P Board (90)</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        Class
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices ch me-2 mt-2">KG</div>
+                                            <div class="choices ch me-2 mt-2">LKG</div>
+                                            <div class="choices ch me-2 mt-2">UKG</div>
+                                            <div class="choices ch me-2 mt-2">1st</div>
+                                            <div class="choices ch me-2 mt-2">2nd</div>
+                                            <div class="choices ch me-2 mt-2">3rd</div>
+                                            <div class="choices ch me-2 mt-2">4th</div>
+                                            <div class="choices ch me-2 mt-2">5th</div>
+                                            <div class="choices ch me-2 mt-2">6th</div>
+                                            <div class="choices ch me-2 mt-2">7th</div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <a href="#" class="showAll">Show all <i
+                                                    class="fa-solid fa-angle-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        Stream
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <a href="#" class="showAll">Show all <i
+                                                    class="fa-solid fa-angle-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        Subject Group
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices ch me-2 mt-2">Science & Maths (90)</div>
+                                            <div class="choices ch me-2 mt-2">English & Hindi (167)</div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <a href="#" class="showAll">Show all <i
+                                                    class="fa-solid fa-angle-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        Subject Group
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices ch me-2 mt-2">Science & Maths (90)</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                            <div class="choices ch me-2 mt-2">Lorem</div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <a href="#" class="showAll">Show all <i
+                                                    class="fa-solid fa-angle-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button type="button" class="btn px-3 me-3" id="clearBtn">Clear</button>
+                        <button type="button" class="btn searchBtn px-3" data-bs-dismiss="modal">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- filter modal 1 ends -->
+    <!-- filter modal 2 -->
+    <div class="modal" tabindex="-1" id="otherFilterModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="./img/filter.png" alt="">
+                    <h5 class="modal-title filterHeading">Filter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="allAccordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Subject
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="choices me-2 mt-2">Maths (90)</div>
+                                            <div class="choices me-2 mt-2">Science (167)</div>
+                                            <div class="choices me-2 mt-2">English (456)</div>
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <a href="#" class="showAll">Show all <i
+                                                    class="fa-solid fa-angle-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button type="button" class="btn px-3 me-3" id="clearBtn2">Clear</button>
+                        <button type="button" class="btn searchBtn px-3" data-bs-dismiss="modal">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- filter modal 2 ends -->
+
+    <!--teachers profile certificate---->
+    <div class="modal" tabindex="-1" id="scheduleClass2">
+        <div class="modal-dialog modal-dialog2 modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="row">
+                    <div class="col-md-2">
+
+                        <img src="img/img29.png" id="img29" class="img-fluid  " alt="">
+                    </div>
+                    <div class="col-md-10 col-12 px-4 certiback">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row justify-content-end">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        <p class="logo3 mt-1">LOGO</p>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <p class="certi"><b>CERTIFICATE</b> </p>
+                                                <p class="of"> OF COMPLETION</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-2">
+                                        <p class="this">This is to certify that</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <p class="ritik">Ritik Mishra</p>
+                                            <hr class="hr3">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p class="lorem9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad minim veniam.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <div class="row">
+                                                <p class="riya">Riya Sen</p>
+                                                <p class="company">Chief Executive Officer</p>
+                                                <p class="company">Company Name</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 col-12 align-self-end">
+                                            <p class="date6">Date <b> DD Month 20XX</b></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!---teachers profile- certificate end-->
+
+    <!-- schedule Modal -->
+    <div class="modal" tabindex="-1" id="scheduleClassModalx">
+        <div class="modal-dialog modal-dialog-centered modal3 ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Schedule your availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row accountDetailsContent ms-2 me-2" style="background-color:#F5F5F5;">
+                        
+                        <div class="col-md-2">
+                            <img src="./img/riya.png" class="img-fluid riya3 text-align-end" alt="">
+                        </div>
+                        <div class="col-md-5 ">
+                            <div class="d-flex">
+
+                            <h1 class="mt-4">Riya sharma</h1>
+                        </div>
+                            <div class="d-flex flex-wrap">
+                                <h3 class="me-1">Maths Teacher</h3>
+                                <h3 class="me-1"><span class="yellowColorText"> | </span></h3>
+                                <h3 class="me-1">LM Id : </h3>
+                                <h3 class="me-1">#584151213331</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-5 align-self-center">
+                            <div class="d-flex align-items-center">
+                                <h1 class="mt-2 me-2">Overall Attendance</h1>
+                                <div class="outerCircle">
+                                    <div class="innerCircle">
+                                        <span class="counter">60</span> <br>
+                                        <div class="percent">%</div>
+                                    </div>
+                                </div>
+                            </div>
+ 
+                        </div>
+                    </div>
+                    <h4 class="text-center mt-2">Attendance Of March 20222</h4>
+                    <div class="row mt-4 flex-wrap">
+                        <div class="col-6 ">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected disabled>Course</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-6 date11">
+                            <input placeholder="Select Date" class="form-control" type="text" id="select-date">
+                            <i class="fa-solid fa-calendar-days" id="calIcon"></i>
+                        </div>
+                    </div>
+                    <div class="row mt-3" id="calCont">
+                        <div class="col-md-12">
+                            <div class="calendar">
+                                <div class="header">
+                                    <a data-action="prev-month" href="javascript:void(0)"
+                                        title="Previous Month"><i></i></a>
+                                    <div class="text" data-render="month-year"></div>
+                                    <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+                                </div>
+                                <div class="months" data-flow="left">
+                                    <div class="month month-a">
+                                        <div class="render render-a"></div>
+                                    </div>
+                                    <div class="month month-b">
+                                        <div class="render render-b"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="mt-3 d-flex align-items-center flex-column">
+                        <li>Total Present In A Month : 20</li>
+                        <li>Total Present In A Month : 30</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End -->
+        <footer class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="border-end col-lg-3 pe-2 pt-2">
+                        <img src="img/darkLogo.png" class="footerLogo" alt="">
+                        <h2 class="text-light mt-1">Connecting Beautiful Minds</h2>
+                        <h3 class="text-light mt-2">LINKSMIND EDUCORP PVT LTD</h3>
+                        <h3 class="text-light">-Unit of EDURESEARCH LINKSMIND LLP</h3>
+                        <div class="d-flex align-items-center text-light mt-3">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <div class="ms-3 addressTelMail">Dummy Address</div>
+                        </div>
+                        <div class="d-flex align-items-center text-light mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="ms-3 addressTelMail"><a href="tel:(+91) 9876543210">(+91) 9876543210</a></div>
+                        </div>
+                        <div class="d-flex align-items-center text-light mt-2">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="ms-3 addressTelMail"><a href="mailto:abc@mail.com">abc@mail.com</a></div>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <a href="#" class="ms-2"><img src="img/footerYoutube.png" class="footerYoutube" alt=""></a>
+                            <a href="#" class="ms-2"><img src="img/footerLinkedIn.png" alt=""></a>
+                            <a href="#" class="ms-2"><img src="img/footerInsta.png" alt=""></a>
+                            <a href="#" class="ms-2"><img src="img/footerTwitter.png" alt=""></a>
+                            <a href="#" class="ms-2"><img src="img/footerFb.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="text-light col-lg-4 ps-md-5 pt-4">
+                        <div class="headings">Quick Links</div>
+                        <div class="d-flex footerLinks">
+                            <div>
+                                <div class="mt-1"><a href="../aboutUs.html">About Us</a></div>
+                                <div class="mt-1"><a href="../contact.html">Contact </a></div>
+                                <div class="mt-1"><a href="../privacyPolicy.html">Privacy Policy</a></div>
+                                <div class="mt-1"><a href="../termsCondition.html">Terms & Condition</a></div>
+                                <div class="mt-1"><a href="../refundPolicy.html">Pricing & Refund Policy</a></div>
+                            </div>
+                            <div class="ms-2">
+                                <div class="mt-1"><a href="../faq.html">FAQs</a></div>
+                                <div class="mt-1"><a href="../siteMap.html">Sitemap</a></div>
+                                <div class="mt-1"><a href="../forum.html">Discussion Forum</a></div>
+                                <div class="mt-1"><a href="../index.html#bookCounselling">Book Free Counselling</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-light col-lg-1 pt-4">
+                        <div class="headings">Courses</div>
+                        <div class="footerLinks">
+                            <div>
+                                <div class="mt-1"><a href="../physics.html">Physics</a></div>
+                                <div class="mt-1"><a href="../bio.html">Bio </a></div>
+                                <div class="mt-1"><a href="../math.html">Maths</a></div>
+                                <div class="mt-1"><a href="../chemistry.html">Chemistry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-light col-lg-4 pt-3">
+                        <div class="headings textDecorationNone">Subscribe to get our Newsletter</div>
+                        <div>
+                            <input type="email" placeholder="Your Email">
+                            <button class="subscribeBtn">Subscribe</button>
+                        </div>
+                        <h4 class="mt-3">Install Our App</h4>
+                        <div class="d-flex">
+                            <a href="#"><img src="img/googlePlay.png" class="downloadImg" alt=""></a>
+                            <a href="#"><img src="img/appleStore.png" class="ms-1 downloadImg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerTag mt-5 pb-3 text-light text-center">© Copyright 2022 -(Company Name) Pvt. Ltd.</div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="toTop me-4">
+                    <a href="#toGetTop">
+                        <div class="backtoTop mx-auto"><i class="fa-solid fa-angle-up fa-3x"></i></div>
+                    </a>
+                    <div class="text-light mt-1">Back to top</div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- bootstrap javascript v5.0.2 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <!-- jQuery Cdn link v3.6.0 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Owl Carousel Cdn link v2.3.4 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- jQueryCounter -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <!-- js file -->
+        <script src="./js/mainCal.js"></script>
+        <script src="../js/script.js"></script>
+        <script src="./js/sideNavbar.js"></script>
+        <script src="./js/leaderBoardCarousel.js"></script>
+        <script src="../js/pricing.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+body {
+    background-color: #F5F5F5;
+}
+
+#cart .curls {
+    margin-left: 60%;
+}
+
+.cartButtons {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+}
+
+.emptyCartBody h2 {
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.cartBtnSelected {
+    background-color: #FFBB00;
+    color: #FFFFFF;
+}
+
+.pricing .plans .plan1 h6 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.pricing .plans .plan1 .couponCodeText {
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
+
+.pricing .plans .plan1 .couponCodeText:focus {
+    outline: none;
+}
+
+@media screen and (max-width:1200px) {
+
+    .pricing .plans .plan1 .couponCodeText {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cartButtons {
+        font-size: 16px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .emptyCartImg {
+        width: 90%;
+    }
+
+    .pricing .plans .plan1 h6 {
+        font-size: 14px;
+    }
+
+    .pricing .plans .plan1 .couponCodeText {
+        height: 30px;
+        width: 60%;
+        font-size: 14px;
+    }
+}
+
+.pricing .paymentOptions {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.pricing .singlePaymentOption {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.selectPaymentOption:hover {
+    cursor: pointer;
+}
+
+.selectPaymentOption:after {
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.selectPaymentOption:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -4px;
+    left: -1px;
+    position: relative;
+    background-color: #FFBB00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+/* debit card page */
+.paymentMethodHeading {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.paymentMethodSubHeading {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: normal;
+    opacity: 0.64;
+}
+
+.cardNumberInputText {
+    padding: 5px 10px 5px 10px;
+    width: 60%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.cardNumberInputText input[type=number] {
+    border: none;
+    outline: none;
+    width: auto;
+}
+
+.cardNumberInputText input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.cardNumberInputText input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.expiryAndCvv {
+    width: 100%;
+}
+
+.expiryAndCvv input[type=number] {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    height: 45px;
+    padding-left: 15px;
+    width: 70%;
+}
+
+.expiryAndCvv input[type=number]:focus {
+    outline: none;
+}
+
+@media screen and (max-width:540px) {
+
+    .cardNumberInputText {
+        padding: 5px 10px 5px 10px;
+        width: 90%;
+    }
+
+    .cardNumberInputText input[type=number] {
+        width: 100%;
+    }
+
+    .expiryAndCvv {
+        width: 50%;
+    }
+
+    .expiryAndCvv input[type=number] {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* invoice css */
+.invoiceContainer {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.invoiceContainer .dop {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    opacity: 0.7;
+}
+
+.invoiceContainer .invoiceContent {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.invoiceContainer .invoiceContent2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.invoice {
+    background: #FFFFFF;
+    border: 1px solid #FFBB00;
+    border-radius: 15px;
+}
+
+.invoice h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.invoice h4 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.invoice .showDetailsBtn {
+    background: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.5;
+    padding: 5px 10px 5px 10px;
+}
+
+.invoice .fa-clock,
+.invoice .fa-signal {
+    color: #45C9C2;
+}
+
+@media screen and (max-width:500px) {
+    .invoiceContainer .invoiceContent {
+
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .invoiceContainer .invoiceContent2 {
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .downloadBtn {
+        width: 50%;
+    }
+
+    .invoice h4 {
+        font-size: 10px;
+    }
+
+}

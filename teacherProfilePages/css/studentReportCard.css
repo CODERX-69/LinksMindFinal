@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.scoreCardHeading {
+    background: #F5F5F5;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.scoreCardHeading p{
+font-size:12px !important;
+}
+
+.scoreCard {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.scoreCard .blackFont {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.scoreCard .smallBlackFont {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.scoreCard .greyFont {
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.scoreCard .smallGreyFont {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.scoreCard .borderBottomYellow {
+    border-bottom: 2px solid #FEBA00;
+}
+
+.scoreCard .blackCard {
+    padding: 28px;
+    max-width: 300px;
+    width: 100%;
+    background: #303030;
+    border: 1px solid #FFBB00;
+    border-radius: 12px;
+}
+
+.scoreCard .blackCard .percentText {
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.scoreCard .blackCard .performanceText {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.scoreCard .blackCard .increasePercent {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.opacity8 {
+    opacity: 0.8;
+}
+
+.verticalYellowLine {
+    width: 3px;
+    background: #FFBB00;
+    height: 127px;
+    margin-top: 23px;
+}
+
+.horizontalYellowLine {
+    height: 3px;
+    background: #FFBB00;
+    width: 55px;
+}
+
+@media screen and (max-width:500px) {
+
+
+    .scoreCard .blackFont,
+    .scoreCard .greyFont {
+        font-size: 16px;
+    }
+
+    .scoreCard .smallBlackFont,
+    .scoreCard .smallGreyFont {
+        font-size: 14px;
+    }
+
+    .scoreCard .blackCard {
+        padding: 22px;
+    }
+
+    .scoreCard .blackCard .percentText {
+        font-size: 26px;
+    }
+
+    .scoreCard .blackCard .performanceText {
+        font-size: 16px;
+    }
+
+    .scoreCard .blackCard .increasePercent {
+        font-size: 10px;
+    }
+
+    .verticalYellowLine {
+        width: 3px;
+        background: #FFBB00;
+        height: 98px;
+        margin-top: 19px;
+    }
+}
+
+/* assesments css */
+.coursesVideo input[type=file] {
+    display: none;
+}
+
+.fileLabel {
+    background: #FFBB00;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.assesmentsViewBtn {
+    background: #FFBB00;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    padding: 8px 35px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:500px) {
+    .fileLabel {
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+
+    .assesmentsViewBtn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* coupons page css */
+.coupons {
+    position: relative;
+    width: 468px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.coupons .discountCouponImg {
+    position: absolute;
+    top: 14%;
+    right: 22px;
+}
+
+.coupons .top {
+    width: 100%;
+    height: 119px;
+    background: #FFBB00;
+}
+
+.coupons .top .text1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #212529;
+    padding-top: 8px;
+    margin-left: 18px;
+}
+
+.coupons .top .text2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 120px;
+    color: #212529;
+    margin-top: -10px;
+}
+
+.coupons .top .text3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #212529;
+    margin-left: 140px;
+    margin-top: 8px;
+}
+
+.coupons .bottom {
+    width: 100%;
+    height: 119px;
+    background: #fff;
+}
+
+.coupons .bottom .text4 {
+    font-weight: 400;
+    font-size: 8px;
+    color: #000000;
+    opacity: 0.8;
+    max-width: 267px;
+    width: 100%;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+.coupons .bottom .claimBtn {
+    width: 82px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    /* margin-top: ; */
+    margin-left: 70%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #444444;
+    border-radius: 0px 15px;
+}
+
+.coupons .save {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.coupons .save1 {
+    top: 32%;
+    right: 112px;
+}
+
+.coupons .save2 {
+    top: 45%;
+    right: 95px;
+}
+
+
+.coupons .save3 {
+    top: 52%;
+    right: 85px;
+}
+
+.coupons .percent {
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.coupons .percent1 {
+    top: 38%;
+    right: 112px;
+}
+
+.coupons .percent2 {
+    font-size: 46px !important;
+    top: 32%;
+    right: 80px;
+}
+
+.coupons .dots {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .coupons {
+        width: 368px;
+    }
+
+    .coupons .discountCouponImg {
+        top: 21%;
+        width: 30%;
+        right: 22px;
+    }
+
+    .coupons .top {
+        height: 99px;
+    }
+
+    .coupons .top .text1 {
+        font-size: 20px;
+    }
+
+    .coupons .top .text2 {
+        font-size: 28px;
+        margin-left: 60px;
+    }
+
+    .coupons .top .text3 {
+        font-size: 14px;
+        margin-left: 70px;
+    }
+
+    .coupons .bottom {
+        height: 99px;
+    }
+
+    .coupons .bottom .text4 {
+        font-size: 8px;
+        max-width: 227px;
+        width: 100%;
+    }
+
+    .coupons .bottom .claimBtn {
+        position: absolute;
+        width: 72px;
+        height: 22px;
+        font-size: 12px;
+        margin-left: 70%;
+        margin-top: -20px;
+    }
+
+    .coupons .save {
+        font-size: 15px;
+    }
+
+    .coupons .save1 {
+        top: 32%;
+        right: 62px;
+    }
+
+    .coupons .save2 {
+        top: 43%;
+        right: 60px;
+    }
+
+
+    .coupons .save3 {
+        top: 52%;
+        right: 65px;
+    }
+
+    .coupons .percent {
+        font-size: 24px;
+    }
+
+    .coupons .percent1 {
+        top: 38%;
+        right: 72px;
+    }
+
+    .coupons .percent2 {
+        font-size: 36px !important;
+        top: 32%;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .coupons {
+        width: 100%;
+    }
+
+    .coupons .discountCouponImg {
+        top: 21%;
+        width: 90px;
+        right: 22px;
+    }
+
+    .coupons .top {
+        height: 79px;
+    }
+
+    .coupons .bottom {
+        height: 79px;
+    }
+
+    .coupons .top .text1 {
+        font-size: 18px;
+    }
+
+    .coupons .top .text2 {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .coupons .top .text3 {
+        font-size: 12px;
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+
+    .coupons .bottom .text4 {
+        font-size: 7px;
+        max-width: 167px;
+        width: 100%;
+    }
+
+    .coupons .bottom .claimBtn {
+        width: 62px;
+        font-size: 10px;
+        margin-top: -40px;
+    }
+
+    .coupons .save {
+        font-size: 10px;
+    }
+
+    .coupons .save1 {
+        top: 32%;
+        right: 62px;
+    }
+
+    .coupons .save2 {
+        top: 45%;
+        right: 52px;
+    }
+
+
+    .coupons .save3 {
+        top: 53%;
+        right: 60px;
+    }
+
+    .coupons .percent {
+        font-size: 24px;
+    }
+
+    .coupons .percent1 {
+        top: 38%;
+        right: 60px;
+    }
+
+    .coupons .percent2 {
+        font-size: 32px !important;
+        top: 32%;
+        right: 40px;
+    }
+}

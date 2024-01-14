@@ -1,0 +1,243 @@
+.training{
+    font-weight: 700;
+font-size: 28px;
+color: #181B1A;
+margin-top: 35px;
+
+}
+
+.training2{
+    font-weight: 700;
+font-size: 28px;
+color: #181B1A;
+margin-top: 35px;
+margin-bottom: 95px;
+
+}
+.lorem3{
+    font-weight: 500;
+font-size: 17px;
+color: rgba(0, 0, 0, 0.7);
+margin-top: 25px;
+}
+
+.btn6{
+    text-align: center;
+    justify-content: center;
+    margin-top: 92px;
+}
+
+.day{
+    font-weight: 700;
+font-size: 28px;
+color: #181B1A;
+}
+
+.tuesday{
+    font-weight: 400;
+font-size: 20px;
+color: #000000;
+
+}
+
+.date3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.time2{
+    font-weight: 800;
+font-size: 22px;
+color: #000000;
+margin-top: 10px;
+}
+
+.selectAvailaibilityContainer2{
+
+
+        height: 194px;
+        background: #F5F5F5;
+        border: 1px solid #FFBB00;
+        border-radius: 14px;
+        padding: 20px 40px;
+ 
+
+}
+
+.btn7{
+    text-align: center;
+    justify-content: center;
+}
+
+.btn71{
+    margin-top: 56px;
+    margin-bottom: 95px;
+}
+
+.lorem4{
+    margin-bottom: 43px;
+    margin-top: 57px;
+    margin-left: 20px;
+}
+
+.btn8{
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:320px) {
+    .btn61{
+        width: 182px;
+    }
+    .training {
+        font-weight: 500;
+        font-size: 25px;
+        color: #181B1A;
+        margin-top: 9px;
+    }
+    
+    .lorem3 {
+        font-weight: 500;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.7);
+        margin-top: 11px;
+    }
+
+    .btn71{
+        margin-top: 31px;
+    }
+
+
+}
+@media screen and (max-width:766px){
+    .day{
+        font-size: 15px;
+    }
+
+    .time2{
+        font-size: 12px;
+    }
+    .training2{
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .btn71 {
+        margin-top: 56px;
+        margin-bottom: 15px;
+    }
+    .btn81{
+        width: 161px;
+        margin-bottom: 20px;
+    }
+    .btn71{
+        width: 161px;
+    }
+}
+
+.logo3{
+    text-align: end;
+    justify-content: end;
+    font-family: 'Montaga';
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+
+}
+
+.certi{
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+letter-spacing: 0.04em;
+color: #000000;
+}
+
+.of{
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.04em;
+color: #000000;
+}
+
+.this{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.ritik{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+align-items: center;
+
+color: #000000;
+
+}
+
+.lorem9{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #000000;
+
+}
+
+.riya{
+    font-weight: 800;
+    font-size: 15px;
+
+    color: #000000;
+}
+
+.company{
+    font-weight: 300;
+    font-size: 15px;
+
+    color: #000000;
+}
+
+.date{
+    text-align: end;
+    justify-content: end;
+    font-family: 'Nexa Light';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+text-align: right;
+color: #000000;
+}
+
+.certiback{
+    background-image: url(../img/certificateback.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.hr3{
+    background: #E87722;
+}
+
+@media screen and (max-width:838px){
+   #img29{
+    display: none;
+    visibility: hidden;
+   }
+
+   .certiback{
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+}
